@@ -469,14 +469,6 @@ body {
 @media (min-width: 48em) {
   body {
     font-size: 1.25em; } }
-::-moz-selection {
-  color: #fff;
-  background-color: #00c1fc; }
-
-::selection {
-  color: #fff;
-  background-color: #00c1fc; }
-
 h1, h2, h3, h4 {
   margin-bottom: 1.5rem;
   margin-top: 0;
@@ -886,63 +878,6 @@ pre code {
   color: rgba(0, 0, 0, 0.3);
   background-color: #eee; }
 
-.site-header {
-  background-color: #f9f9f9; }
-
-.site-header .site-branding {
-  position: relative;
-  overflow: hidden;
-  padding: 1.5rem 1rem;
-  text-align: center; }
-
-@media (min-width: 37.5em) {
-  .site-header .site-branding {
-    padding: 3rem 2rem; } }
-@media (min-width: 48em) {
-  .site-header .site-branding {
-    padding: 4.5rem 3rem; } }
-.home .site-header .site-branding {
-  padding: 3.5rem 1rem; }
-
-@media (min-width: 37.5em) {
-  .home .site-header .site-branding {
-    padding: 7rem 2rem; } }
-@media (min-width: 48em) {
-  .home .site-header .site-branding {
-    padding: 10.5rem 3rem; } }
-.site-title {
-  margin: 0;
-  font-size: 1.5625em;
-  line-height: 1;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  color: #000; }
-
-.site-title a {
-  display: block;
-  color: #fff; }
-
-.site-title a:active, .site-title a:focus, .site-title a:hover {
-  color: #fff;
-  text-decoration: none; }
-
-.site-title a:before {
-  display: block;
-  width: 230px;
-  height: 155px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-image: url("https://2018.jyvaskyla.wordcamp.org/files/2017/10/logo-wcjkl@3x.png");
-  background-size: 100%;
-  content: ""; }
-
-@media (min-width: 48em) {
-  .site-title a:before {
-    width: 299px;
-    height: 201.5px; } }
 @media (min-width: 62em) {
   .site-title {
     font-size: 1.95312em; } }
@@ -954,27 +889,6 @@ pre code {
   font-weight: 400;
   text-transform: none;
   color: rgba(255, 255, 255, 0.6); }
-
-.site-header {
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: fixed;
-  background-image: url("https://2018.jyvaskyla.wordcamp.org/files/2017/10/hero-background.jpg");
-  -webkit-transition: all .15s ease;
-  transition: all .15s ease; }
-
-@media (min-width: 48em) {
-  .site-header {
-    background-image: url("https://2018.jyvaskyla.wordcamp.org/files/2017/10/hero-background@2x.jpg");
-    background-position: 50% 50%;
-    background-size: cover; } }
-.site-header > * {
-  position: relative;
-  z-index: 200; }
-
-.site-header .custom-header {
-  z-index: 100; }
 
 .menu-toggle {
   padding: 1rem;
