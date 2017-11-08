@@ -996,11 +996,11 @@ pre code {
   .menu-item a {
     padding: 1.5rem; } }
 .secondary-navigation .menu-item a {
-  color: #fff; }
+  color: #007B84; }
 
 .secondary-navigation .menu-item a.focus, .secondary-navigation .menu-item a:active, .secondary-navigation .menu-item a:focus, .secondary-navigation .menu-item a:hover {
   color: #fff;
-  background-color: #00aee3; }
+  background-color: #AF3AAD; }
 
 .current-menu-item > a {
   color: #000;
