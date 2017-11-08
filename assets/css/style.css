@@ -6,7 +6,7 @@ body, button, input, select, textarea {
   font-size: 18px;
   color: #2D2D2D; }
 
-a:link, a:visited {
+a, a:link, a:visited {
   color: #2D2D2D;
   text-decoration: none; }
 a:hover, a:active {

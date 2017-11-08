@@ -23,7 +23,7 @@ body, button, input, select, textarea {
 }
 
 a {
-  &:link, &:visited {
+  &, &:link, &:visited {
     color: $dark;
     text-decoration: none;
   }
