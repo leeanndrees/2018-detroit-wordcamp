@@ -43,10 +43,10 @@ h6, .h6, h6 a {
 
 /* Remote CSS from https://api.github.com/repos/samikeijonen/2018.jyvaskyla.wordcamp.org/contents/build/assets/stylesheets/style.css */
 .cc--var-color-brand-primary:after {
-  background-color: #00c1fc; }
+  background-color: #AF3AAD; }
 
 .cc--var-color-brand-primary .cc__variable:after {
-  content: "#00c1fc"; }
+  content: "$purple"; }
 
 .cc--var-color-brand-secondary:after {
   background-color: #111; }
@@ -103,10 +103,10 @@ h6, .h6, h6 a {
   content: "#fff"; }
 
 .cc--var-color-link:after {
-  background-color: #00c1fc; }
+  background-color: #AF3AAD; }
 
 .cc--var-color-link .cc__variable:after {
-  content: "#00c1fc"; }
+  content: "$purple"; }
 
 .cc--var-color-link-focus:after {
   background-color: #009aca; }
@@ -127,10 +127,10 @@ h6, .h6, h6 a {
   content: "#33cdfd"; }
 
 .cc--var-color-link-alt:after {
-  background-color: #00c1fc; }
+  background-color: #AF3AAD; }
 
 .cc--var-color-link-alt .cc__variable:after {
-  content: "#00c1fc"; }
+  content: "$purple"; }
 
 .cc--var-color-link-alt-focus:after {
   background-color: #009aca; }
@@ -259,10 +259,10 @@ h6, .h6, h6 a {
   content: "#b8b8b8"; }
 
 .cc--var-color-input-focus:after {
-  background-color: #00c1fc; }
+  background-color: #AF3AAD; }
 
 .cc--var-color-input-focus .cc__variable:after {
-  content: "#00c1fc"; }
+  content: "$purple"; }
 
 .cc--var-color-input-success:after {
   background-color: #00a664; }
@@ -289,10 +289,10 @@ h6, .h6, h6 a {
   content: "#b8b8b8"; }
 
 .cc--var-color-input-checkbox-active:after {
-  background-color: #00c1fc; }
+  background-color: #AF3AAD; }
 
 .cc--var-color-input-checkbox-active .cc__variable:after {
-  content: "#00c1fc"; }
+  content: "$purple"; }
 
 .cc--var-color-input-radio:after {
   background-color: #b8b8b8; }
@@ -301,10 +301,10 @@ h6, .h6, h6 a {
   content: "#b8b8b8"; }
 
 .cc--var-color-input-radio-active:after {
-  background-color: #00c1fc; }
+  background-color: #AF3AAD; }
 
 .cc--var-color-input-radio-active .cc__variable:after {
-  content: "#00c1fc"; }
+  content: "$purple"; }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -534,9 +534,9 @@ input:not([type]):hover, input[type=color]:hover, input[type=date]:hover, input[
 input:not([type]):focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, textarea:focus {
   outline: none;
   color: #000;
-  border-color: #00c1fc;
-  -webkit-box-shadow: 0 0 0 .125em #00c1fc;
-          box-shadow: 0 0 0 .125em #00c1fc; }
+  border-color: #AF3AAD;
+  -webkit-box-shadow: 0 0 0 0.125em #AF3AAD;
+          box-shadow: 0 0 0 0.125em #AF3AAD; }
 
 textarea {
   resize: vertical;
@@ -562,7 +562,7 @@ select {
   cursor: pointer; }
 
 a {
-  color: #00c1fc;
+  color: #AF3AAD;
   text-decoration: none;
   -webkit-transition: all .15s ease;
   transition: all .15s ease; }
@@ -626,7 +626,7 @@ blockquote {
   margin-bottom: 1.5rem;
   padding: 0;
   padding-left: 1.5rem;
-  border-left: .1875rem solid #00c1fc; }
+  border-left: 0.1875rem solid #AF3AAD; }
 
 blockquote p {
   font-style: italic; }
@@ -898,7 +898,7 @@ pre code {
   line-height: 24px;
   text-align: center;
   letter-spacing: .05em;
-  color: #00c1fc;
+  color: #AF3AAD;
   border-radius: 0;
   background-color: #f9f9f9;
   cursor: pointer; }
@@ -914,15 +914,15 @@ pre code {
   border: .375rem solid transparent;
   margin-left: .5rem;
   vertical-align: middle;
-  border-top-color: #00c1fc;
+  border-top-color: #AF3AAD;
   content: ""; }
 
 .menu-toggle[aria-expanded=true] {
-  color: #00c1fc; }
+  color: #AF3AAD; }
 
 .menu-toggle[aria-expanded=true]:after {
   border-top-color: transparent;
-  border-bottom-color: #00c1fc; }
+  border-bottom-color: #AF3AAD; }
 
 @media (min-width: 37.5em) {
   .menu-toggle {
@@ -979,7 +979,7 @@ pre code {
     text-align: center; } }
 .menu-item a {
   display: block;
-  color: #00c1fc;
+  color: #AF3AAD;
   padding: .5rem 1rem;
   text-decoration: none;
   -webkit-transition: all .1s ease;
@@ -1114,7 +1114,7 @@ pre code {
   background-image: url("https://europe.wordcamp.org/2016/files/2015/11/wordpress-footer-logo.png");
   background-position: 50%;
   background-repeat: no-repeat;
-  background-color: #00c1fc;
+  background-color: #073449;
   background-size: 40px;
   border-radius: 50%;
   -webkit-transition: all .1s ease;
@@ -1129,7 +1129,7 @@ pre code {
   margin-bottom: -1.875rem;
   width: 1.875rem;
   height: 6.25rem;
-  background: #00c1fc;
+  background: #073449;
   -webkit-transition: all .1s ease;
   transition: all .1s ease;
   content: ""; }
@@ -1211,7 +1211,7 @@ pre code {
   color: rgba(0, 0, 0, 0.6); }
 
 .entry-meta a {
-  color: #00c1fc; }
+  color: #2D2D2D; }
 
 .entry-meta a:active, .entry-meta a:focus, .entry-meta a:hover {
   color: #00aee3; }
@@ -1238,7 +1238,7 @@ pre code {
   content: ""; }
 
 .entry-footer a {
-  color: #00c1fc; }
+  color: #2D2D2D; }
 
 .entry-footer a:active, .entry-footer a:focus, .entry-footer a:hover {
   color: #00aee3; }
@@ -1332,7 +1332,7 @@ pre code {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  border: .125rem solid #00c1fc;
+  border: 0.125rem solid #2D2D2D;
   border-radius: 50px;
   border-width: 0;
   background-color: #fff;
@@ -1630,7 +1630,7 @@ div.googlemaps iframe {
 
 .wcpt-schedule .wcpt-col-time, .wcpt-schedule .wcpt-col-track {
   border-top: none;
-  background-color: #00c1fc;
+  background-color: #AF3AAD;
   color: #fff; }
 
 .wcpt-schedule .global-session td {
@@ -1719,7 +1719,7 @@ div.googlemaps iframe {
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: #fff;
-    background-color: #00c1fc; }
+    background-color: #AF3AAD; }
 
   .wcpt-schedule .wcpt-session-title {
     padding: 0; }
@@ -2055,7 +2055,6 @@ div.googlemaps iframe {
   line-height: 1.5625em;
   text-align: center;
   text-transform: uppercase;
-  color: #00c1fc;
   position: relative;
   z-index: 100; }
 
@@ -2199,7 +2198,7 @@ div.googlemaps iframe {
   bottom: 0;
   left: -1000px;
   right: -1000px;
-  background-color: #00c1fc;
+  background-color: #AF3AAD;
   content: ""; }
 
 #after-header-widgets .widget .widget_title, #before-content-widgets .widget .widget_title, #secondary .widget .widget_title, .widget_twitter_timeline h2 {
@@ -2302,7 +2301,7 @@ iframe#twitter-widget-0 {
   display: block;
   width: 2.5rem;
   height: 2.5rem;
-  border: 4px solid #00c1fc;
+  border: 4px solid #AF3AAD;
   border-radius: .1875rem;
   -webkit-transition: all .1s ease;
   transition: all .1s ease; }
@@ -2321,11 +2320,6 @@ iframe#twitter-widget-0 {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 36px; }
-
-.list-social a:active, .list-social a:focus, .list-social a:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: #00c1fc; }
 
 .list-social a:active:before, .list-social a:focus:before, .list-social a:hover:before {
   background-color: #99e6fe;
@@ -2537,7 +2531,7 @@ iframe#twitter-widget-0 {
   padding: 1rem;
   min-width: 13.75rem;
   color: #fff;
-  background-color: #00c1fc;
+  background-color: #AF3AAD;
   text-decoration: none;
   border-radius: .1875rem; }
 

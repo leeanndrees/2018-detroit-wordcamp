@@ -2,11 +2,11 @@
 // Adding it to our files instead of editing via WP to stay sane :)
 
 .cc--var-color-brand-primary:after {
-	background-color: #00c1fc;
+	background-color: $purple;
 }
 
 .cc--var-color-brand-primary .cc__variable:after {
-	content: "#00c1fc";
+	content: "$purple";
 }
 
 .cc--var-color-brand-secondary:after {
@@ -82,11 +82,11 @@
 }
 
 .cc--var-color-link:after {
-	background-color: #00c1fc;
+	background-color: $purple;
 }
 
 .cc--var-color-link .cc__variable:after {
-	content: "#00c1fc";
+	content: "$purple";
 }
 
 .cc--var-color-link-focus:after {
@@ -114,11 +114,11 @@
 }
 
 .cc--var-color-link-alt:after {
-	background-color: #00c1fc;
+	background-color: $purple;
 }
 
 .cc--var-color-link-alt .cc__variable:after {
-	content: "#00c1fc";
+	content: "$purple";
 }
 
 .cc--var-color-link-alt-focus:after {
@@ -290,11 +290,11 @@
 }
 
 .cc--var-color-input-focus:after {
-	background-color: #00c1fc;
+	background-color: $purple;
 }
 
 .cc--var-color-input-focus .cc__variable:after {
-	content: "#00c1fc";
+	content: "$purple";
 }
 
 .cc--var-color-input-success:after {
@@ -330,11 +330,11 @@
 }
 
 .cc--var-color-input-checkbox-active:after {
-	background-color: #00c1fc;
+	background-color: $purple;
 }
 
 .cc--var-color-input-checkbox-active .cc__variable:after {
-	content: "#00c1fc";
+	content: "$purple";
 }
 
 .cc--var-color-input-radio:after {
@@ -346,11 +346,11 @@
 }
 
 .cc--var-color-input-radio-active:after {
-	background-color: #00c1fc;
+	background-color: $purple;
 }
 
 .cc--var-color-input-radio-active .cc__variable:after {
-	content: "#00c1fc";
+	content: "$purple";
 }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
@@ -629,8 +629,8 @@ input:not([type]):hover,input[type=color]:hover,input[type=date]:hover,input[typ
 input:not([type]):focus,input[type=color]:focus,input[type=date]:focus,input[type=datetime-local]:focus,input[type=datetime]:focus,input[type=email]:focus,input[type=month]:focus,input[type=number]:focus,input[type=password]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=text]:focus,input[type=time]:focus,input[type=url]:focus,input[type=week]:focus,textarea:focus {
 	outline: none;
 	color: #000;
-	border-color: #00c1fc;
-	box-shadow: 0 0 0 .125em #00c1fc;
+	border-color: $purple;
+	box-shadow: 0 0 0 .125em $purple;
 }
 
 textarea {
@@ -662,7 +662,7 @@ select {
 }
 
 a {
-	color: #00c1fc;
+	color: $purple;
 	text-decoration: none;
 	transition: all .15s ease;
 }
@@ -745,7 +745,7 @@ blockquote {
 	margin-bottom: 1.5rem;
 	padding: 0;
 	padding-left: 1.5rem;
-	border-left: .1875rem solid #00c1fc;
+	border-left: .1875rem solid $purple;
 }
 
 blockquote p {
@@ -1179,7 +1179,7 @@ pre code {
 	line-height: 24px;
 	text-align: center;
 	letter-spacing: .05em;
-	color: #00c1fc;
+	color: $purple;
 	border-radius: 0;
 	background-color: #f9f9f9;
 	cursor: pointer;
@@ -1197,17 +1197,17 @@ pre code {
 	border: .375rem solid transparent;
 	margin-left: .5rem;
 	vertical-align: middle;
-	border-top-color: #00c1fc;
+	border-top-color: $purple;
 	content: "";
 }
 
 .menu-toggle[aria-expanded=true] {
-	color: #00c1fc;
+	color: $purple;
 }
 
 .menu-toggle[aria-expanded=true]:after {
 	border-top-color: transparent;
-	border-bottom-color: #00c1fc;
+	border-bottom-color: $purple;
 }
 
 @media (min-width:37.5em) {
@@ -1287,7 +1287,7 @@ pre code {
 
 .menu-item a {
 	display: block;
-	color: #00c1fc;
+	color: $purple;
 	padding: .5rem 1rem;
 	text-decoration: none;
 	transition: all .1s ease;
@@ -1463,7 +1463,7 @@ pre code {
 	background-image: url('https://europe.wordcamp.org/2016/files/2015/11/wordpress-footer-logo.png');
 	background-position: 50%;
 	background-repeat: no-repeat;
-	background-color: #00c1fc;
+	background-color: $navy;
 	background-size: 40px;
 	border-radius: 50%;
 	transition: all .1s ease;
@@ -1478,7 +1478,7 @@ pre code {
 	margin-bottom: -1.875rem;
 	width: 1.875rem;
 	height: 6.25rem;
-	background: #00c1fc;
+	background: $navy;
 	transition: all .1s ease;
 	content: "";
 }
@@ -1583,7 +1583,7 @@ pre code {
 }
 
 .entry-meta a {
-	color: #00c1fc;
+	color: $dark;
 }
 
 .entry-meta a:active,.entry-meta a:focus,.entry-meta a:hover {
@@ -1617,7 +1617,7 @@ pre code {
 }
 
 .entry-footer a {
-	color: #00c1fc;
+	color: $dark;
 }
 
 .entry-footer a:active,.entry-footer a:focus,.entry-footer a:hover {
@@ -1743,7 +1743,7 @@ pre code {
 	margin: 0;
 	width: 3rem;
 	height: 3rem;
-	border: .125rem solid #00c1fc;
+	border: .125rem solid $dark;
 	border-radius: 50px;
 	border-width: 0;
 	background-color: #fff;
@@ -2110,7 +2110,7 @@ div.googlemaps iframe {
 
 .wcpt-schedule .wcpt-col-time,.wcpt-schedule .wcpt-col-track {
 	border-top: none;
-	background-color: #00c1fc;
+	background-color: $purple;
 	color: #fff;
 }
 
@@ -2219,7 +2219,7 @@ div.googlemaps iframe {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		color: #fff;
-		background-color: #00c1fc;
+		background-color: $purple;
 	}
 
 	.wcpt-schedule .wcpt-session-title {
@@ -2642,7 +2642,7 @@ div.googlemaps iframe {
 	line-height: 1.5625em;
 	text-align: center;
 	text-transform: uppercase;
-	color: #00c1fc;
+	//color: #00c1fc;
 	position: relative;
 	z-index: 100;
 }
@@ -2850,7 +2850,7 @@ div.googlemaps iframe {
 	bottom: 0;
 	left: -1000px;
 	right: -1000px;
-	background-color: #00c1fc;
+	background-color: $purple;
 	content: "";
 }
 
@@ -2982,7 +2982,7 @@ iframe#twitter-widget-0 {
 	display: block;
 	width: 2.5rem;
 	height: 2.5rem;
-	border: 4px solid #00c1fc;
+	border: 4px solid $purple;
 	border-radius: .1875rem;
 	transition: all .1s ease;
 }
@@ -3003,11 +3003,11 @@ iframe#twitter-widget-0 {
 	background-size: 36px;
 }
 
-.list-social a:active,.list-social a:focus,.list-social a:hover {
-	text-decoration: none;
-	color: #fff;
-	background-color: #00c1fc;
-}
+// .list-social a:active,.list-social a:focus,.list-social a:hover {
+// 	text-decoration: none;
+// 	color: #fff;
+// 	background-color: #00c1fc;
+// }
 
 .list-social a:active:before,.list-social a:focus:before,.list-social a:hover:before {
 	background-color: #99e6fe;
@@ -3265,7 +3265,7 @@ iframe#twitter-widget-0 {
 	padding: 1rem;
 	min-width: 13.75rem;
 	color: #fff;
-	background-color: #00c1fc;
+	background-color: $purple;
 	text-decoration: none;
 	border-radius: .1875rem;
 }
