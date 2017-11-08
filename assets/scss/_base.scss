@@ -534,15 +534,6 @@ textarea {
 	box-sizing: border-box;
 }
 
-body {
-	font-size: 1em;
-	line-height: 1.5625em;
-	font-family: Source Sans Pro, sans-serif;
-	color: rgba(0,0,0,.75);
-	background: #fff;
-	font-feature-settings: liga;
-}
-
 @media (min-width:37.5em) {
 	body {
 		font-size: 1.125em;
@@ -556,44 +547,36 @@ body {
 }
 
 
-h1,h2,h3,h4 {
-	margin-bottom: 1.5rem;
-	margin-top: 0;
-	font-family: $body-font;
-	font-weight: 700;
-	line-height: 1;
-	letter-spacing: .025em;
-}
-
-h1 {
-	font-size: 2.44141em;
-	color: #111;
-}
-
-h2 {
-	font-size: 1.95312em;
-}
-
-h2,h3 {
-	color: #000;
-}
-
-h3 {
-	font-size: 1.5625em;
-}
-
-h4 {
-	font-size: 1.25em;
-	color: #000;
-}
-
-hr {
-	margin: 1.5rem auto;
-	padding: 0;
-	border: 0;
-	border-top: 4px solid #e7e7e7;
-	width: 60px;
-}
+// h1,h2,h3,h4 {
+// 	margin-bottom: 1.5rem;
+// 	margin-top: 0;
+// 	font-family: $body-font;
+// 	font-weight: 700;
+// 	line-height: 1;
+// 	letter-spacing: .025em;
+// }
+//
+// h1 {
+// 	font-size: 2.44141em;
+// 	color: #111;
+// }
+//
+// h2 {
+// 	font-size: 1.95312em;
+// }
+//
+// h2,h3 {
+// 	color: #000;
+// }
+//
+// h3 {
+// 	font-size: 1.5625em;
+// }
+//
+// h4 {
+// 	font-size: 1.25em;
+// 	color: #000;
+// }
 
 fieldset {
 	border: none;
@@ -661,33 +644,13 @@ select {
 	cursor: pointer;
 }
 
-a {
-	color: $purple;
-	text-decoration: none;
-	transition: all .15s ease;
-}
-
-a:focus,a:hover {
-	color: #00aee3;
-	text-decoration: underline;
-}
-
-a:active {
-	color: #00aee3;
-	text-decoration: none;
-}
-
-.entry-content a {
-	text-decoration: underline;
-}
-
-p {
-	margin-top: 0;
-	margin-bottom: 1.5rem;
-	font-size: 1em;
-	line-height: 1.5625em;
-	color: rgba(0,0,0,.75);
-}
+// p {
+// 	margin-top: 0;
+// 	margin-bottom: 1.5rem;
+// 	font-size: 1em;
+// 	line-height: 1.5625em;
+// 	color: rgba(0,0,0,.75);
+// }
 
 @media (min-width:37.5em) {
 	p {
@@ -1316,7 +1279,7 @@ pre code {
 
 .secondary-navigation .menu-item a.focus,.secondary-navigation .menu-item a:active,.secondary-navigation .menu-item a:focus,.secondary-navigation .menu-item a:hover {
 	color: #fff;
-	background-color: $purple;
+	background-color: $teal;
 }
 
 .current-menu-item>a {
@@ -1326,7 +1289,7 @@ pre code {
 
 .secondary-navigation .current-menu-item>a {
 	color: #fff;
-	background-color: #00aee3;
+	background-color: $purple;
 }
 
 .menu-item-has-children .dropdown-toggle {

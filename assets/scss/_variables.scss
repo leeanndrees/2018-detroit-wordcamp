@@ -6,69 +6,7 @@ $navy: #073449;
 $teal: #007B84;
 $purple: #AF3AAD;
 
-body {
-  background-color: $light;
-}
-
-
 // TYPOGRAPHY
 
 $body-font: 'Open Sans', sans-serif;
 $cursive: 'Damion', cursive;
-
-body, button, input, select, textarea {
-  font-family: $body-font;
-  font-size: 18px;
-  color: $dark;
-}
-
-a {
-  &, &:link, &:visited {
-    color: $dark;
-    text-decoration: none;
-  }
-  &:hover, &:active {
-    border-bottom: 0;
-    color: $dark;
-  }
-}
-
-p a {
-  &:link, &:visited {
-    border-bottom: 2px solid $teal;
-  }
-}
-
-h1, .h1, h1 a {
-  font-size: 2em; //style guide says 3 but that looks insane, maybe change later?
-  text-transform: uppercase;
-}
-
-h2, .h2, h2 a {
-  font-size: 2em; //style guide says 3 but that looks insane, maybe change later?
-  color: $purple;
-}
-
-h3, .h3, h3 a {
-  font-size: 2em; //style guide says 3 but that looks insane, maybe change later?
-}
-
-h4, .h4, h4 a {
-  font-size: 1.5em; //style guide says 3 but that looks insane, maybe change later?
-  color: $purple;
-}
-
-h5, .h5, h5 a {
-  font-size: 1.2em; //style guide says 1.7
-  color: $purple;
-}
-
-h6, .h6, h6 a {
-  font-size: 1.2em; //style guide says 2
-}
-
-.cursive {
-  font-family: $cursive;
-}
-
-// BUTTONS
