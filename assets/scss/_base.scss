@@ -568,7 +568,7 @@ body {
 h1,h2,h3,h4 {
 	margin-bottom: 1.5rem;
 	margin-top: 0;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-weight: 700;
 	line-height: 1;
 	letter-spacing: .025em;
@@ -616,7 +616,7 @@ input:not([type]),input[type=color],input[type=date],input[type=datetime-local],
 	padding: .4375rem 1rem;
 	margin: 0;
 	border: 1px solid #b8b8b8;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: 1em;
 	line-height: 1.5625em;
 	color: rgba(0,0,0,.75);
@@ -660,7 +660,7 @@ select {
 	width: 100%;
 	padding: .4375rem 1rem;
 	border: 1px solid #b8b8b8;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: 1em;
 	line-height: 1.5625em;
 	color: rgba(0,0,0,.75);
@@ -779,7 +779,7 @@ caption {
 td,th {
 	padding: .5rem 1rem;
 	border-top: 1px solid rgba(0,0,0,.1);
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -802,7 +802,7 @@ figure,img {
 figcaption {
 	margin-top: .5rem;
 	margin-bottom: 0;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: .8em;
 	line-height: 1.5625em;
 	color: rgba(0,0,0,.6);
@@ -1002,7 +1002,7 @@ pre code {
 	line-height: 1.5625em;
 	text-align: center;
 	color: rgba(0,0,0,.75);
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	text-decoration: none;
 	background-color: #e7e7e7;
 	border-radius: .1875rem;
@@ -1102,7 +1102,7 @@ pre code {
 	margin: 0;
 	font-size: 1.5625em;
 	line-height: 1;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-weight: 700;
 	color: #000;
 }
@@ -1278,7 +1278,7 @@ pre code {
 	position: relative;
 	margin: 0;
 	display: block;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: 14px;
 	text-align: left;
 }
@@ -1569,7 +1569,7 @@ pre code {
 .entry-content .more-link {
 	display: block;
 	margin-top: 1rem;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -1609,7 +1609,7 @@ pre code {
 
 .entry-footer {
 	margin-bottom: 1.5rem;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5em;
@@ -1651,7 +1651,7 @@ pre code {
 .wcorg-organizer h2 {
 	margin-bottom: 1rem;
 	font-size: 1.25em;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 }
 
 .wcorg-organizer .wcorg-organizer-description {
@@ -1777,7 +1777,7 @@ pre code {
 	padding-right: 0;
 	margin-right: 0;
 	margin-bottom: .125rem;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	color: #000;
 	font-weight: 700;
 	font-size: 18px;
@@ -1842,7 +1842,7 @@ article.comment-body {
 
 .comment-author {
 	display: block;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: .8em;
 	line-height: 1.5625em;
 }
@@ -1865,7 +1865,7 @@ article.comment-body {
 }
 
 .comment-metadata {
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: .64em;
 	line-height: 1.5625em;
 }
@@ -1885,7 +1885,7 @@ article.comment-body {
 
 .reply {
 	margin-top: .5rem;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: .8em;
 	line-height: 1.5625em;
 }
@@ -1989,7 +1989,7 @@ article.comment-body {
 	display: block;
 	margin-top: .25rem;
 	color: rgba(0,0,0,.75);
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 }
 
 .tix_tickets_table .tix-column-price,.tix_tickets_table .tix-column-quantity,.tix_tickets_table .tix-column-remaining {
@@ -2072,7 +2072,7 @@ article.comment-body {
 
 .post-navigation a,.posts-navigation a {
 	display: block;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	letter-spacing: -.025em;
 }
 
@@ -2139,7 +2139,7 @@ div.googlemaps iframe {
 	font-size: 1em;
 	line-height: 1.25em;
 	font-weight: 700;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	color: #000;
 }
 
@@ -2155,7 +2155,7 @@ div.googlemaps iframe {
 	margin-bottom: 0;
 	font-size: 1.5625em;
 	line-height: 1.25em;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	color: #000;
 }
 
@@ -3050,7 +3050,7 @@ iframe#twitter-widget-0 {
 	position: relative;
 	margin-top: 1.5rem;
 	padding-top: 1.5rem;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	text-transform: uppercase;
 }
 
@@ -3262,7 +3262,7 @@ iframe#twitter-widget-0 {
 .nav-anchor li {
 	display: inline-block;
 	margin: .125rem;
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: 1em;
 	line-height: 1.25em;
 	font-weight: 700;
@@ -3413,7 +3413,7 @@ img.emoji,img.wp-smiley {
 }
 
 .contact-form label {
-	font-family: Montserrat, sans-serif;
+	font-family: $body-font;
 	font-size: 16px;
 	line-height: 24px;
 }
