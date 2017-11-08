@@ -35,36 +35,39 @@ a {
 h1, .h1, h1 a {
   font-size: 2em; //style guide says 3 but that looks insane, maybe change later?
   text-transform: uppercase;
+  border-bottom: 0;
 }
 
 h2, .h2, h2 a {
   font-size: 2em; //style guide says 3 but that looks insane, maybe change later?
   color: $purple;
+  border-bottom: 0;
 }
 
 h3, .h3, h3 a {
   font-size: 2em; //style guide says 3 but that looks insane, maybe change later?
+  border-bottom: 0;
 }
 
 h4, .h4, h4 a {
   font-size: 1.5em; //style guide says 3 but that looks insane, maybe change later?
   color: $purple;
+  border-bottom: 0;
 }
 
 h5, .h5, h5 a {
   font-size: 1.2em; //style guide says 1.7
   color: $purple;
+  border-bottom: 0;
 }
 
 h6, .h6, h6 a {
   font-size: 1.2em; //style guide says 2
+  border-bottom: 0;
 }
 
 .cursive {
   font-family: $cursive;
 }
-
-// SPACING
-
 
 // BUTTONS
