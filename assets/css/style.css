@@ -1,7 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Damion|Open+Sans");
 body {
+  background-color: #EDEDEA; }
+
+body, button, input, select, textarea {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px; }
+  font-size: 18px;
+  color: #2D2D2D; }
+
+a:link, a:visited {
+  text-decoration: none;
+  border-bottom: 2px solid #007B84; }
+a:hover, a:active {
+  border-bottom: 0; }
 
 h1, .h1, h1 a {
   font-size: 2em;
@@ -27,3 +36,7 @@ h6, .h6, h6 a {
 
 .cursive {
   font-family: "Damion", cursive; }
+
+.site-footer {
+  background-color: #073449;
+  color: #EDEDEA; }

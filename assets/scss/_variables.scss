@@ -6,16 +6,30 @@ $navy: #073449;
 $teal: #007B84;
 $purple: #AF3AAD;
 
+body {
+  background-color: $light;
+}
+
 
 // TYPOGRAPHY
 
-@import url('https://fonts.googleapis.com/css?family=Damion|Open+Sans');
 $body-font: 'Open Sans', sans-serif;
 $cursive: 'Damion', cursive;
 
-body {
+body, button, input, select, textarea {
   font-family: $body-font;
-  font-size: 16px;
+  font-size: 18px;
+  color: $dark;
+}
+
+a {
+  &:link, &:visited {
+    text-decoration: none;
+    border-bottom: 2px solid $teal;
+  }
+  &:hover, &:active {
+    border-bottom: 0;
+  }
 }
 
 h1, .h1, h1 a {
