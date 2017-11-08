@@ -7,38 +7,35 @@ body, button, input, select, textarea {
   color: #2D2D2D; }
 
 a:link, a:visited {
-  text-decoration: none;
-  border-bottom: 2px solid #007B84; }
+  color: #2D2D2D;
+  text-decoration: none; }
 a:hover, a:active {
   border-bottom: 0; }
 
+p a:link, p a:visited {
+  border-bottom: 2px solid #007B84; }
+
 h1, .h1, h1 a {
   font-size: 2em;
-  text-transform: uppercase;
-  border-bottom: 0; }
+  text-transform: uppercase; }
 
 h2, .h2, h2 a {
   font-size: 2em;
-  color: #AF3AAD;
-  border-bottom: 0; }
+  color: #AF3AAD; }
 
 h3, .h3, h3 a {
-  font-size: 2em;
-  border-bottom: 0; }
+  font-size: 2em; }
 
 h4, .h4, h4 a {
   font-size: 1.5em;
-  color: #AF3AAD;
-  border-bottom: 0; }
+  color: #AF3AAD; }
 
 h5, .h5, h5 a {
   font-size: 1.2em;
-  color: #AF3AAD;
-  border-bottom: 0; }
+  color: #AF3AAD; }
 
 h6, .h6, h6 a {
-  font-size: 1.2em;
-  border-bottom: 0; }
+  font-size: 1.2em; }
 
 .cursive {
   font-family: "Damion", cursive; }
