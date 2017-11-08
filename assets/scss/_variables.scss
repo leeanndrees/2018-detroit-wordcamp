@@ -9,13 +9,16 @@ $purple: #AF3AAD;
 
 // TYPOGRAPHY
 
-h1 {
-  color: $purple;
-}
+@import url('https://fonts.googleapis.com/css?family=Damion|Open+Sans');
+$body-font: 'Open Sans', sans-serif;
+$cursive: 'Damion', cursive;
 
-h2 {
-  color: $teal;
+h1, .h1, h1 a {
+  font-size: 3em;
+  text-transform: uppercase;
 }
-
 
 // SPACING
+
+
+// BUTTONS

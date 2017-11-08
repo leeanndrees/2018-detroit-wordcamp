@@ -1,11 +1,4 @@
-h1 {
-  color: #AF3AAD; }
-
-h2 {
-  color: #007B84; }
-
-p {
-  color: #2D2D2D; }
-
-a {
-  color: #007B84; }
+@import url("https://fonts.googleapis.com/css?family=Damion|Open+Sans");
+h1, .h1, h1 a {
+  font-size: 3em;
+  text-transform: uppercase; }
