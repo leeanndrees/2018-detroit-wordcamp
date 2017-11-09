@@ -1551,7 +1551,7 @@ div.googlemaps iframe {
 .widget {
   padding: 1.5rem 1rem;
   position: relative;
-  max-width: 50rem; }
+  max-width: 80rem; }
 
 @media (min-width: 37.5em) {
   .widget {
