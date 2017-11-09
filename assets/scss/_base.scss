@@ -2409,7 +2409,7 @@ img.emoji,img.wp-smiley {
 
 .contact-submit input[type=submit]:active,.contact-submit input[type=submit]:focus,.contact-submit input[type=submit]:hover {
 	color: #fff;
-	background-color: lighten($teal, 20%);
+	background-color: $teal-light;
 }
 
 .kss-doc-title {

@@ -2030,7 +2030,7 @@ img.emoji, img.wp-smiley {
 
 .contact-submit input[type=submit]:active, .contact-submit input[type=submit]:focus, .contact-submit input[type=submit]:hover {
   color: #fff;
-  background-color: #00daea; }
+  background-color: #179BA6; }
 
 .kss-doc-title {
   margin-bottom: 1.5rem;
@@ -2355,12 +2355,10 @@ h6, .h6, h6 a {
   line-height: 1.5625em;
   text-align: center;
   color: #EDEDEA;
-  font-family: Work Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
   background-color: #007B84;
-  border-radius: .1875rem;
+  border-radius: 0;
   border-color: transparent;
   cursor: pointer;
   -webkit-transition: all .1s ease;
