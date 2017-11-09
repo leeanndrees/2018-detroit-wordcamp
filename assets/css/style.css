@@ -2722,11 +2722,14 @@ a, a:link, a:visited {
   -webkit-transition: all .15s ease;
   transition: all .15s ease; }
 a:hover, a:focus, a:active {
-  border-bottom: 0;
   color: #2D2D2D; }
 
 .entry-content a, .entry-content a:link, .entry-content a:visited {
   border-bottom: 2px solid #007B84; }
+.entry-content a:hover, .entry-content a:focus, .entry-content a:active {
+  border-bottom: 0;
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease; }
 
 h1, .h1, h1 a {
   font-size: 2em;

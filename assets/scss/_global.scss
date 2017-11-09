@@ -24,9 +24,6 @@ hr {
 
 // TYPOGRAPHY
 
-$body-font: 'Open Sans', sans-serif;
-$cursive: 'Damion', cursive;
-
 body, button, input, select, textarea {
   font-family: $body-font;
   font-size: 18px;
@@ -40,7 +37,6 @@ a {
     transition: all .15s ease;
   }
   &:hover, &:focus, &:active {
-    border-bottom: 0;
     color: $dark;
   }
 }
@@ -48,6 +44,10 @@ a {
 .entry-content a {
   &, &:link, &:visited {
     border-bottom: 2px solid $teal;
+  }
+	&:hover, &:focus, &:active {
+    border-bottom: 0;
+		transition: all .15s ease;
   }
 }
 
