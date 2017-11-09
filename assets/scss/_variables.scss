@@ -6,6 +6,9 @@ $navy: #073449;
 $teal: #007B84;
 $purple: #AF3AAD;
 
+$teal-light: lighten($teal, 10%);
+$purple-light: lighten($purple, 10%);
+
 // TYPOGRAPHY
 
 $body-font: 'Open Sans', sans-serif;
