@@ -1,268 +1,3 @@
-/* Remote CSS from https://api.github.com/repos/lucijanblagonic/2017.zagreb.wordcamp.org/contents/build/assets/stylesheets/style.css */
-.cc--var-color-brand-primary:after {
-  background-color: #d90e17; }
-
-.cc--var-color-brand-primary .cc__variable:after {
-  content: "#d90e17"; }
-
-.cc--var-color-brand-secondary:after {
-  background-color: #111; }
-
-.cc--var-color-brand-secondary .cc__variable:after {
-  content: "#111"; }
-
-.cc--var-color-brand-tertiary:after {
-  background-color: #f9f9f9; }
-
-.cc--var-color-brand-tertiary .cc__variable:after {
-  content: "#f9f9f9"; }
-
-.cc--var-color-brand-quaternary:after {
-  background-color: #222; }
-
-.cc--var-color-brand-quaternary .cc__variable:after {
-  content: "#222"; }
-
-.cc--var-color-text:after {
-  background-color: rgba(0, 0, 0, 0.75); }
-
-.cc--var-color-text .cc__variable:after {
-  content: "rgba(0,0,0,.75)"; }
-
-.cc--var-color-text-weak:after {
-  background-color: rgba(0, 0, 0, 0.6); }
-
-.cc--var-color-text-weak .cc__variable:after {
-  content: "rgba(0,0,0,.6)"; }
-
-.cc--var-color-text-strong:after {
-  background-color: #000; }
-
-.cc--var-color-text-strong .cc__variable:after {
-  content: "#000"; }
-
-.cc--var-color-text-invert:after {
-  background-color: rgba(255, 255, 255, 0.75); }
-
-.cc--var-color-text-invert .cc__variable:after {
-  content: "hsla(0,0%,100%,.75)"; }
-
-.cc--var-color-text-weak-invert:after {
-  background-color: rgba(255, 255, 255, 0.6); }
-
-.cc--var-color-text-weak-invert .cc__variable:after {
-  content: "hsla(0,0%,100%,.6)"; }
-
-.cc--var-color-text-strong-invert:after {
-  background-color: #fff; }
-
-.cc--var-color-text-strong-invert .cc__variable:after {
-  content: "#fff"; }
-
-.cc--var-color-link:after {
-  background-color: #d90e17; }
-
-.cc--var-color-link .cc__variable:after {
-  content: "#d90e17"; }
-
-.cc--var-color-link-focus:after {
-  background-color: #ae0b12; }
-
-.cc--var-color-link-focus .cc__variable:after {
-  content: "#ae0b12"; }
-
-.cc--var-color-link-hover:after {
-  background-color: #c30d15; }
-
-.cc--var-color-link-hover .cc__variable:after {
-  content: "#c30d15"; }
-
-.cc--var-color-link-visited:after {
-  background-color: #e13e45; }
-
-.cc--var-color-link-visited .cc__variable:after {
-  content: "#e13e45"; }
-
-.cc--var-color-link-alt:after {
-  background-color: #d90e17; }
-
-.cc--var-color-link-alt .cc__variable:after {
-  content: "#d90e17"; }
-
-.cc--var-color-link-alt-focus:after {
-  background-color: #ae0b12; }
-
-.cc--var-color-link-alt-focus .cc__variable:after {
-  content: "#ae0b12"; }
-
-.cc--var-color-link-alt-hover:after {
-  background-color: #c30d15; }
-
-.cc--var-color-link-alt-hover .cc__variable:after {
-  content: "#c30d15"; }
-
-.cc--var-color-link-alt-visited:after {
-  background-color: #e13e45; }
-
-.cc--var-color-link-alt-visited .cc__variable:after {
-  content: "#e13e45"; }
-
-.cc--var-color-grey-10:after {
-  background-color: #e7e7e7; }
-
-.cc--var-color-grey-10 .cc__variable:after {
-  content: "#e7e7e7"; }
-
-.cc--var-color-grey-20:after {
-  background-color: #cfcfcf; }
-
-.cc--var-color-grey-20 .cc__variable:after {
-  content: "#cfcfcf"; }
-
-.cc--var-color-grey-30:after {
-  background-color: #b8b8b8; }
-
-.cc--var-color-grey-30 .cc__variable:after {
-  content: "#b8b8b8"; }
-
-.cc--var-color-grey-40:after {
-  background-color: #a0a0a0; }
-
-.cc--var-color-grey-40 .cc__variable:after {
-  content: "#a0a0a0"; }
-
-.cc--var-color-grey-50:after {
-  background-color: #888; }
-
-.cc--var-color-grey-50 .cc__variable:after {
-  content: "#888"; }
-
-.cc--var-color-grey-60:after {
-  background-color: #707070; }
-
-.cc--var-color-grey-60 .cc__variable:after {
-  content: "#707070"; }
-
-.cc--var-color-grey-70:after {
-  background-color: #585858; }
-
-.cc--var-color-grey-70 .cc__variable:after {
-  content: "#585858"; }
-
-.cc--var-color-grey-80:after {
-  background-color: #414141; }
-
-.cc--var-color-grey-80 .cc__variable:after {
-  content: "#414141"; }
-
-.cc--var-color-grey-90:after {
-  background-color: #292929; }
-
-.cc--var-color-grey-90 .cc__variable:after {
-  content: "#292929"; }
-
-.cc--var-color-grey-100:after {
-  background-color: #111; }
-
-.cc--var-color-grey-100 .cc__variable:after {
-  content: "#111"; }
-
-.cc--var-color-border-weak:after {
-  background-color: #e7e7e7; }
-
-.cc--var-color-border-weak .cc__variable:after {
-  content: "#e7e7e7"; }
-
-.cc--var-color-border-normal:after {
-  background-color: #cfcfcf; }
-
-.cc--var-color-border-normal .cc__variable:after {
-  content: "#cfcfcf"; }
-
-.cc--var-color-border-strong:after {
-  background-color: #b8b8b8; }
-
-.cc--var-color-border-strong .cc__variable:after {
-  content: "#b8b8b8"; }
-
-.cc--var-color-message-default:after {
-  background-color: #eee; }
-
-.cc--var-color-message-default .cc__variable:after {
-  content: "#eee"; }
-
-.cc--var-color-message-success:after {
-  background-color: #00a664; }
-
-.cc--var-color-message-success .cc__variable:after {
-  content: "#00a664"; }
-
-.cc--var-color-message-warning:after {
-  background-color: #ffcb05; }
-
-.cc--var-color-message-warning .cc__variable:after {
-  content: "#ffcb05"; }
-
-.cc--var-color-message-danger:after {
-  background-color: #f04e3e; }
-
-.cc--var-color-message-danger .cc__variable:after {
-  content: "#f04e3e"; }
-
-.cc--var-color-input-regular:after {
-  background-color: #b8b8b8; }
-
-.cc--var-color-input-regular .cc__variable:after {
-  content: "#b8b8b8"; }
-
-.cc--var-color-input-focus:after {
-  background-color: #d90e17; }
-
-.cc--var-color-input-focus .cc__variable:after {
-  content: "#d90e17"; }
-
-.cc--var-color-input-success:after {
-  background-color: #00a664; }
-
-.cc--var-color-input-success .cc__variable:after {
-  content: "#00a664"; }
-
-.cc--var-color-input-error:after {
-  background-color: #f04e3e; }
-
-.cc--var-color-input-error .cc__variable:after {
-  content: "#f04e3e"; }
-
-.cc--var-color-input-required:after {
-  background-color: #b43b2f; }
-
-.cc--var-color-input-required .cc__variable:after {
-  content: "#b43b2f"; }
-
-.cc--var-color-input-checkbox:after {
-  background-color: #b8b8b8; }
-
-.cc--var-color-input-checkbox .cc__variable:after {
-  content: "#b8b8b8"; }
-
-.cc--var-color-input-checkbox-active:after {
-  background-color: #d90e17; }
-
-.cc--var-color-input-checkbox-active .cc__variable:after {
-  content: "#d90e17"; }
-
-.cc--var-color-input-radio:after {
-  background-color: #b8b8b8; }
-
-.cc--var-color-input-radio .cc__variable:after {
-  content: "#b8b8b8"; }
-
-.cc--var-color-input-radio-active:after {
-  background-color: #d90e17; }
-
-.cc--var-color-input-radio-active .cc__variable:after {
-  content: "#d90e17"; }
-
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -414,7 +149,7 @@ textarea {
 body {
   font-size: 1em;
   line-height: 1.5625em;
-  font-family: Georgia, Cambria, Times New Roman, Times, serif;
+  font-family: "Open Sans", sans-serif;
   color: rgba(0, 0, 0, 0.75);
   background: #fff;
   -webkit-font-feature-settings: liga;
@@ -437,7 +172,7 @@ body {
 h1, h2, h3, h4 {
   margin-bottom: 1.5rem;
   margin-top: 0;
-  font-family: Work Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 1;
   letter-spacing: -.025em; }
@@ -476,7 +211,7 @@ input:not([type]), input[type=color], input[type=date], input[type=datetime-loca
   padding: .4375rem 1rem;
   margin: 0;
   border: 1px solid #b8b8b8;
-  font-family: Work Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5625em;
   color: rgba(0, 0, 0, 0.75);
@@ -516,7 +251,7 @@ select {
   width: 100%;
   padding: .4375rem 1rem;
   border: 1px solid #b8b8b8;
-  font-family: Work Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5625em;
   color: rgba(0, 0, 0, 0.75);
@@ -587,7 +322,7 @@ blockquote {
   margin-bottom: 1.5rem;
   padding: 0;
   padding-left: 1.5rem;
-  border-left: .1875rem solid #d90e17; }
+  border-left: 0.1875rem solid #AF3AAD; }
 
 blockquote p {
   font-style: normal; }
@@ -607,7 +342,7 @@ caption {
 td, th {
   padding: .5rem 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  font-family: Work Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -625,7 +360,7 @@ figure, img {
 figcaption {
   margin-top: .5rem;
   margin-bottom: 0;
-  font-family: Work Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: .8em;
   line-height: 1.5625em;
   color: rgba(0, 0, 0, 0.6); }
@@ -667,6 +402,7 @@ pre code {
   padding: 0;
   background: 0; }
 
+/* Remote CSS from https://api.github.com/repos/lucijanblagonic/2017.zagreb.wordcamp.org/contents/build/assets/stylesheets/style.css */
 .cc-title {
   margin-bottom: 1.5rem;
   font-size: 18px;
