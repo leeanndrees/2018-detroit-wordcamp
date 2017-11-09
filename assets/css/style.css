@@ -585,18 +585,18 @@ pre code {
 .entry-meta {
   margin-bottom: 1rem;
   font-family: "Open Sans", sans-serif;
-  color: #AF3AAD;
-  text-transform: uppercase;
+  color: #622161;
+  text-transform: none;
   letter-spacing: -.025em;
   font-size: 85%;
   font-weight: bold; }
 
 .entry-meta a {
-  color: #AF3AAD;
+  color: #622161;
   border-bottom: 2px solid #007B84; }
 
 .entry-meta a:active, .entry-meta a:focus, .entry-meta a:hover {
-  color: #622161;
+  color: #AF3AAD;
   border-bottom: 0; }
 
 .entry-meta .updated {

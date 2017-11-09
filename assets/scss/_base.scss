@@ -580,20 +580,20 @@
 .entry-meta {
 	margin-bottom: 1rem;
 	font-family: $body-font;
-	color: $purple;
-	text-transform: uppercase;
+	color: $purple-dark;
+	text-transform: none;
 	letter-spacing: -.025em;
 	font-size: 85%;
 	font-weight: bold;
 }
 
 .entry-meta a {
-	color: $purple;
+	color: $purple-dark;
 	border-bottom: 2px solid $teal;
 }
 
 .entry-meta a:active,.entry-meta a:focus,.entry-meta a:hover {
-	color: $purple-dark;
+	color: $purple;
 	border-bottom: 0;
 }
 
