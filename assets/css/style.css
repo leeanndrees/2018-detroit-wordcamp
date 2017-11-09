@@ -593,11 +593,10 @@ pre code {
 
 .entry-meta a {
   color: #622161;
-  border-bottom: 2px solid #007B84; }
+  border-bottom: 0; }
 
 .entry-meta a:active, .entry-meta a:focus, .entry-meta a:hover {
-  color: #AF3AAD;
-  border-bottom: 0; }
+  color: #AF3AAD; }
 
 .entry-meta .updated {
   display: none; }

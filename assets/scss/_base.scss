@@ -589,12 +589,11 @@
 
 .entry-meta a {
 	color: $purple-dark;
-	border-bottom: 2px solid $teal;
+	border-bottom: 0;
 }
 
 .entry-meta a:active,.entry-meta a:focus,.entry-meta a:hover {
 	color: $purple;
-	border-bottom: 0;
 }
 
 .entry-meta .updated {
