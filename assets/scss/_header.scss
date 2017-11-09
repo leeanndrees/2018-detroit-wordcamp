@@ -1,0 +1,398 @@
+.site-header {
+	background-color: $light;
+}
+
+.site-header .site-branding {
+	position: relative;
+	overflow: hidden;
+	padding: 1.5rem 1rem;
+	text-align: center;
+}
+
+@media (min-width:37.5em) {
+	.site-header .site-branding {
+		padding: 3rem 2rem;
+	}
+}
+
+@media (min-width:48em) {
+	.site-header .site-branding {
+		padding: 4.5rem 3rem;
+	}
+}
+
+.home .site-header .site-branding {
+	padding: 3.5rem 1rem;
+}
+
+@media (min-width:37.5em) {
+	.home .site-header .site-branding {
+		padding: 7rem 2rem;
+	}
+}
+
+@media (min-width:48em) {
+	.home .site-header .site-branding {
+		padding: 10.5rem 3rem;
+	}
+}
+
+.site-title {
+	margin: 0;
+	font-size: 1.5625em;
+	line-height: 1;
+	font-family: $body-font;
+	font-weight: 700;
+	color: $dark;
+}
+
+.site-title a {
+	display: block;
+	color: $light;
+}
+
+.site-title a:active,.site-title a:focus,.site-title a:hover {
+	color: $light;
+	text-decoration: none;
+}
+
+.site-title a:before {
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-image: url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-logo-large.png');
+	background-size: 100%;
+	content: "";
+}
+
+@media (min-width:48em) {
+	.site-title a:before {
+		width: 208px;
+		height: 208px;
+	}
+}
+
+@media (min-width:62em) {
+	.site-title {
+		font-size: 1.95312em;
+	}
+}
+
+.site-description {
+	margin: 0;
+	margin-top: .5rem;
+	font-size: 1em;
+	line-height: 1.25em;
+	font-family: $body-font;
+	font-weight: 400;
+	text-transform: none;
+	color: $light;
+}
+
+.site-header {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: fixed;
+	background-image: url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-hero-small.jpg');
+	transition: all .15s ease;
+}
+
+@media (min-width:48em) {
+	.site-header {
+		background-image: url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-hero-large.jpg');
+		background-position: 50% 50%;
+		background-size: cover;
+	}
+}
+
+.site-header:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: radial-gradient(circle at center,$purple 0,$purple-light 100%);
+	transition: all .15s ease;
+	content: "";
+}
+
+.site-header:hover:before {
+	background-color: $purple;
+}
+
+.site-header>* {
+	position: relative;
+	z-index: 200;
+}
+
+.menu-toggle {
+	padding: 1rem;
+	margin: 0;
+	margin-top: .125rem;
+	width: 100%;
+	font-size: 0;
+	line-height: 24px;
+	font-family: $body-font;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: .05em;
+	color: $purple;
+	text-transform: uppercase;
+	border-radius: 0;
+	background-color: $light;
+	cursor: pointer;
+}
+
+.menu-toggle.focus,.menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {
+	color: $purple-light;
+	background-color: $light;
+}
+
+.menu-toggle:before {
+	font-size: 16px;
+	line-height: 24px;
+	content: "Menu";
+}
+
+.menu-toggle:after,.menu-toggle:before {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu-toggle:after {
+	position: relative;
+	top: -.125rem;
+	border: .375rem solid transparent;
+	margin-left: .5rem;
+	border-top-color: $teal;
+	content: "";
+}
+
+.menu-toggle[aria-expanded=true] {
+	color: $teal;
+}
+
+.menu-toggle[aria-expanded=true]:after {
+	border-top-color: transparent;
+	border-bottom-color: $teal;
+}
+
+@media (min-width:37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+}
+
+.main-navigation {
+	position: relative;
+	background-color: $light;
+}
+
+@media (max-width:37.4375em) {
+	.main-navigation {
+		background-color: $light;
+	}
+
+	.main-navigation.toggled-on .menu {
+		display: block;
+	}
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.menu:after,.menu:before {
+	content: "";
+	display: table;
+}
+
+.menu:after {
+	clear: both;
+}
+
+@media (min-width:37.5em) {
+	.menu {
+		display: block;
+	}
+}
+
+@media (max-width:37.4375em) {
+	.menu {
+		border-top: 1px solid hsla(0,0%,100%,.2);
+		display: none;
+	}
+
+	.toggled-on .menu {
+		display: block;
+	}
+}
+
+.menu-item {
+	position: relative;
+	margin: 0;
+	display: block;
+	font-family: $body-font;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: -.025em;
+}
+
+@media (min-width:37.5em) {
+	.menu-item {
+		margin: 0 .0625rem;
+		display: inline-block;
+		font-size: 18px;
+		font-size: 1.125rem;
+		line-height: 1.33333em;
+		text-align: center;
+	}
+}
+
+.menu-item a {
+	display: block;
+	color: $teal;
+	padding: .5rem 1rem;
+	text-decoration: none;
+	transition: all .1s ease;
+}
+
+.menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
+	color: $light;
+	background-color: $teal;
+}
+
+@media (min-width:48em) {
+	.menu-item a {
+		padding: 1rem 1.5rem;
+	}
+}
+
+@media (min-width:62em) {
+	.menu-item a {
+		padding: 1.5rem 2rem;
+	}
+}
+
+// .current-menu-item>a {
+// 	color: $dark;
+// 	background-color: #e0e0e0;
+// }
+
+// .menu-item-has-children {
+// 	background-color: hsla(0,0%,98%,.6);
+// }
+
+.menu-item-has-children .dropdown-toggle {
+	display: none;
+}
+
+@media (min-width:37.5em) {
+	.menu-item-has-children {
+		background-color: transparent;
+	}
+
+	.menu-item-has-children>a:after {
+		position: relative;
+		top: -.125rem;
+		display: inline-block;
+		border: .375rem solid transparent;
+		margin-left: .5rem;
+		vertical-align: middle;
+		border-top-color: #000;
+		content: "";
+	}
+
+	.menu-item-has-children>a .dropdown-toggle {
+		display: inline-block;
+		display: none;
+	}
+
+	.menu-item-has-children.focus>a,.menu-item-has-children:hover>a {
+		color: $light;
+		background-color: #c30d15;
+	}
+
+	.menu-item-has-children.focus>a:after,.menu-item-has-children:hover>a:after {
+		border-top-color: $light;
+	}
+
+	.menu-item-has-children.focus>.sub-menu,.menu-item-has-children:hover>.sub-menu {
+		left: 0;
+	}
+
+	.menu-item-has-children.current-menu-item.focus>a:after,.menu-item-has-children.current-menu-item:hover>a:after,.menu-item-has-children.current-menu-item>a:after {
+		border-top-color: #000;
+	}
+}
+
+.sub-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sub-menu .menu-item {
+	text-transform: none;
+	font-weight: 400;
+	font-family: $body-font;
+}
+
+@media (max-width:37.4375em) {
+	.sub-menu a {
+		padding-left: 2.5rem;
+	}
+}
+
+@media (min-width:37.5em) {
+	.sub-menu {
+		position: absolute;
+		top: 100%;
+		left: -999em;
+		z-index: 310;
+		min-width: 16.25rem;
+		background-color: #c30d15;
+	}
+
+	.sub-menu .menu-item {
+		width: 100%;
+		margin: 0;
+		border-top: 1px solid hsla(0,0%,100%,.2);
+		text-align: left;
+	}
+
+	.sub-menu a {
+		padding: .75rem 1rem;
+		color: hsla(0,0%,100%,.75);
+	}
+
+	.sub-menu .current-menu-item>a {
+		color: #000;
+		background-color: #e0e0e0;
+	}
+}
+
+@media (min-width:48em) {
+	.sub-menu a {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+}
+
+@media (min-width:62em) {
+	.sub-menu a {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
