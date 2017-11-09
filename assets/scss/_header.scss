@@ -117,7 +117,7 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background-image: radial-gradient(circle at center,transparentize($purple, .2) 0,transparentize($purple-dark, .2) 100%);
+	background-image: radial-gradient(circle at center,transparentize($purple, .5) 0,transparentize($purple-dark, .5) 100%);
 	transition: all .15s ease;
 	content: "";
 }
