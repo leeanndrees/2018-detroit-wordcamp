@@ -2758,13 +2758,10 @@ h6, .h6, h6 a {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: radial-gradient(circle at center, rgba(175, 58, 173, 0.2) 0, rgba(98, 33, 97, 0.2) 100%);
+  background-image: radial-gradient(circle at center, rgba(175, 58, 173, 0.8) 0, rgba(98, 33, 97, 0.8) 100%);
   -webkit-transition: all .15s ease;
   transition: all .15s ease;
   content: ""; }
-
-.site-header:hover:before {
-  background-color: #AF3AAD; }
 
 .site-header > * {
   position: relative;
