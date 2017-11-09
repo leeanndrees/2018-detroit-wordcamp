@@ -584,16 +584,20 @@ pre code {
 
 .entry-meta {
   margin-bottom: 1rem;
-  font-family: Work Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  color: rgba(0, 0, 0, 0.6);
+  font-family: "Open Sans", sans-serif;
+  color: #AF3AAD;
   text-transform: uppercase;
-  letter-spacing: -.025em; }
+  letter-spacing: -.025em;
+  font-size: 85%;
+  font-weight: bold; }
 
 .entry-meta a {
-  color: #d90e17; }
+  color: #AF3AAD;
+  border-bottom: 2px solid #007B84; }
 
 .entry-meta a:active, .entry-meta a:focus, .entry-meta a:hover {
-  color: #c30d15; }
+  color: #622161;
+  border-bottom: 0; }
 
 .entry-meta .updated {
   display: none; }

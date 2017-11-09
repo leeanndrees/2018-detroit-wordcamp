@@ -579,18 +579,22 @@
 
 .entry-meta {
 	margin-bottom: 1rem;
-	font-family: Work Sans, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-	color: rgba(0,0,0,.6);
+	font-family: $body-font;
+	color: $purple;
 	text-transform: uppercase;
 	letter-spacing: -.025em;
+	font-size: 85%;
+	font-weight: bold;
 }
 
 .entry-meta a {
-	color: #d90e17;
+	color: $purple;
+	border-bottom: 2px solid $teal;
 }
 
 .entry-meta a:active,.entry-meta a:focus,.entry-meta a:hover {
-	color: #c30d15;
+	color: $purple-dark;
+	border-bottom: 0;
 }
 
 .entry-meta .updated {
