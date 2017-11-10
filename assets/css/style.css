@@ -2958,3 +2958,6 @@ h6, .h6, h6 a {
 
 .site-info-network:active, .site-info-network:active:after, .site-info-network:focus, .site-info-network:focus:after, .site-info-network:hover, .site-info-network:hover:after {
   background-color: #c755c5; }
+
+.footer-widgets .menu-item a {
+  color: #073449; }
