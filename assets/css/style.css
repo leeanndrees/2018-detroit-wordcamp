@@ -1560,7 +1560,7 @@ div.googlemaps iframe {
   .widget {
     padding: 2.5rem 1rem; } }
 .widget-title {
-  font-size: 1.25em;
+  font-size: 1.75em;
   line-height: 1.25em; }
 
 #after-header-widgets .widget, #before-content-widgets .widget, #secondary .widget {
@@ -2331,7 +2331,7 @@ h5, .h5, h5 a {
 h6, .h6, h6 a {
   font-size: 1.2em; }
 
-.cursive {
+.cursive, .widget-title {
   font-family: "Damion", cursive; }
 
 .site {
@@ -2962,3 +2962,7 @@ h6, .h6, h6 a {
   padding: 1rem 2rem; }
 .widget_nav_menu .menu-item a {
   color: #073449; }
+
+.widget_wpcom_social_media_icons_widget .genericon {
+  font-size: 2em;
+  color: #007B84; }

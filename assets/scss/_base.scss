@@ -1832,7 +1832,8 @@ div.googlemaps iframe {
 }
 
 .widget-title {
-	font-size: 1.25em;
+	@extend .cursive;
+	font-size: 1.75em;
 	line-height: 1.25em;
 }
 
