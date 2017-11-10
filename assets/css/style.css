@@ -2796,7 +2796,7 @@ h6, .h6, h6 a {
 
   .toggled-on .menu {
     display: block; } }
-.menu-item {
+.menu-top-menu-container .menu-item {
   position: relative;
   margin: 0;
   display: block;
@@ -2808,30 +2808,30 @@ h6, .h6, h6 a {
   letter-spacing: -.025em; }
 
 @media (min-width: 37.5em) {
-  .menu-item {
+  .menu-top-menu-container .menu-item {
     margin: 0 .0625rem;
     display: inline-block;
     font-size: 18px;
     font-size: 1.125rem;
     line-height: 1.33333em;
-    text-align: center; } }
-.menu-item a {
-  display: block;
-  color: #EDEDEA;
-  padding: .5rem 1rem;
-  text-decoration: none;
-  -webkit-transition: all .1s ease;
-  transition: all .1s ease; }
+    text-align: center; }
 
-.menu-item a.focus, .menu-item a:active, .menu-item a:focus, .menu-item a:hover {
-  color: #EDEDEA;
-  background-color: #007B84; }
-
-@media (min-width: 48em) {
   .menu-item a {
+    display: block;
+    color: #EDEDEA;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    -webkit-transition: all .1s ease;
+    transition: all .1s ease; }
+
+  .menu-item a.focus, .menu-item a:active, .menu-item a:focus, .menu-item a:hover {
+    color: #EDEDEA;
+    background-color: #007B84; } }
+@media (min-width: 48em) {
+  .menu-top-menu-container .menu-item a {
     padding: 1rem 1.5rem; } }
 @media (min-width: 62em) {
-  .menu-item a {
+  .menu-top-menu-container .menu-item a {
     padding: 1.5rem 2rem; } }
 .menu-item-has-children .dropdown-toggle {
   display: none; }

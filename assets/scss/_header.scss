@@ -238,7 +238,7 @@
 	}
 }
 
-.menu-item {
+.menu-top-menu-container .menu-item {
 	position: relative;
 	margin: 0;
 	display: block;
@@ -251,37 +251,39 @@
 }
 
 @media (min-width:37.5em) {
-	.menu-item {
-		margin: 0 .0625rem;
-		display: inline-block;
-		font-size: 18px;
-		font-size: 1.125rem;
-		line-height: 1.33333em;
-		text-align: center;
-	}
-}
+  .menu-top-menu-container {
+  	.menu-item {
+  		margin: 0 .0625rem;
+  		display: inline-block;
+  		font-size: 18px;
+  		font-size: 1.125rem;
+  		line-height: 1.33333em;
+  		text-align: center;
+  	}
+  }
 
-.menu-item a {
-	display: block;
-	color: $light;
-	padding: .5rem 1rem;
-	text-decoration: none;
-	transition: all .1s ease;
-}
+  .menu-item a {
+  	display: block;
+  	color: $light;
+  	padding: .5rem 1rem;
+  	text-decoration: none;
+  	transition: all .1s ease;
+  }
 
-.menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
-	color: $light;
-	background-color: $teal;
+  .menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
+  	color: $light;
+  	background-color: $teal;
+  }
 }
 
 @media (min-width:48em) {
-	.menu-item a {
+	.menu-top-menu-container .menu-item a {
 		padding: 1rem 1.5rem;
 	}
 }
 
 @media (min-width:62em) {
-	.menu-item a {
+	.menu-top-menu-container .menu-item a {
 		padding: 1.5rem 2rem;
 	}
 }
