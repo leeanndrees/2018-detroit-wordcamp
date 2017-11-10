@@ -191,12 +191,12 @@
 
 .main-navigation {
 	position: relative;
-	background-color: $light;
+	background-color: $navy;
 }
 
 @media (max-width:37.4375em) {
 	.main-navigation {
-		background-color: $light;
+		background-color: $navy;
 	}
 
 	.main-navigation.toggled-on .menu {
@@ -262,7 +262,7 @@
 
 .menu-item a {
 	display: block;
-	color: $teal;
+	color: $light;
 	padding: .5rem 1rem;
 	text-decoration: none;
 	transition: all .1s ease;

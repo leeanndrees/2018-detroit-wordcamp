@@ -2768,11 +2768,11 @@ h6, .h6, h6 a {
     display: none; } }
 .main-navigation {
   position: relative;
-  background-color: #EDEDEA; }
+  background-color: #073449; }
 
 @media (max-width: 37.4375em) {
   .main-navigation {
-    background-color: #EDEDEA; }
+    background-color: #073449; }
 
   .main-navigation.toggled-on .menu {
     display: block; } }
@@ -2820,7 +2820,7 @@ h6, .h6, h6 a {
     text-align: center; } }
 .menu-item a {
   display: block;
-  color: #007B84;
+  color: #EDEDEA;
   padding: .5rem 1rem;
   text-decoration: none;
   -webkit-transition: all .1s ease;
