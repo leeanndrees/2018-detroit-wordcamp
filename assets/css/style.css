@@ -1555,10 +1555,10 @@ div.googlemaps iframe {
 
 @media (min-width: 37.5em) {
   .widget {
-    padding: 3rem 2rem; } }
+    padding: 2rem 1rem; } }
 @media (min-width: 48em) {
   .widget {
-    padding: 4.5rem 3rem; } }
+    padding: 2.5rem 1rem; } }
 .widget-title {
   font-size: 1.25em;
   line-height: 1.25em; }
@@ -2957,5 +2957,8 @@ h6, .h6, h6 a {
 .site-info-network:active, .site-info-network:active:after, .site-info-network:focus, .site-info-network:focus:after, .site-info-network:hover, .site-info-network:hover:after {
   background-color: #c755c5; }
 
+.footer-widgets .menu-item {
+  display: inline-block;
+  padding: 1rem 2rem; }
 .footer-widgets .menu-item a {
   color: #073449; }
