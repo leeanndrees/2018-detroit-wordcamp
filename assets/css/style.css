@@ -2815,16 +2815,14 @@ h6, .h6, h6 a {
     font-size: 1.125rem;
     line-height: 1.33333em;
     text-align: center; }
-
-  .menu-item a {
+  .menu-top-menu-container .menu-item a {
     display: block;
     color: #EDEDEA;
     padding: .5rem 1rem;
     text-decoration: none;
     -webkit-transition: all .1s ease;
     transition: all .1s ease; }
-
-  .menu-item a.focus, .menu-item a:active, .menu-item a:focus, .menu-item a:hover {
+  .menu-top-menu-container .menu-item a.focus, .menu-top-menu-container .menu-item a:active, .menu-top-menu-container .menu-item a:focus, .menu-top-menu-container .menu-item a:hover {
     color: #EDEDEA;
     background-color: #007B84; } }
 @media (min-width: 48em) {
