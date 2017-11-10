@@ -2966,3 +2966,6 @@ h6, .h6, h6 a {
 .widget_wpcom_social_media_icons_widget .genericon {
   font-size: 2em;
   color: #007B84; }
+
+.widget_wpcom_social_media_icons_widget ul {
+  padding-left: 0; }
