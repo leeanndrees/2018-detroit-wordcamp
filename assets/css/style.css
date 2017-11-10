@@ -2644,13 +2644,12 @@ h6, .h6, h6 a {
   .home .site-header .site-branding {
     padding: 10.5rem 3rem; } }
 .site-title {
-  display: none;
   margin: 0;
-  font-size: 1.5625em;
+  font-size: 1em;
   line-height: 1;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  color: #EDEDEA; }
+  color: #EDEDEA !important; }
 
 .site-title a {
   display: block;
@@ -2660,7 +2659,7 @@ h6, .h6, h6 a {
   color: #EDEDEA;
   text-decoration: none; }
 
-.site-description:before {
+.site-title a:before {
   display: block;
   width: 457px;
   height: 250px;
