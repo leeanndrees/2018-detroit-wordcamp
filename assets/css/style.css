@@ -2790,7 +2790,7 @@ h6, .h6, h6 a {
   .menu {
     display: block; } }
 @media (max-width: 37.4375em) {
-  .menu {
+  .menu-top-menu-container .menu {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     display: none; }
 
