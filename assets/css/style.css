@@ -2649,11 +2649,11 @@ h6, .h6, h6 a {
   line-height: 1;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  color: #EDEDEA !important; }
+  color: #EDEDEA; }
 
 .site-title a {
   display: block;
-  color: #EDEDEA; }
+  color: #EDEDEA !important; }
 
 .site-title a:active, .site-title a:focus, .site-title a:hover {
   color: #EDEDEA;
@@ -2672,9 +2672,6 @@ h6, .h6, h6 a {
   background-size: 100%;
   content: ""; }
 
-@media (min-width: 62em) {
-  .site-title {
-    font-size: 1.95312em; } }
 .site-description {
   margin: 0;
   margin-top: .5rem;
