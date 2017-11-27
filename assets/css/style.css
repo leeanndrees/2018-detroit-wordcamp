@@ -1431,7 +1431,7 @@ div.googlemaps iframe {
   line-height: 1.5625em;
   text-align: center;
   text-transform: uppercase;
-  color: #d90e17;
+  color: #073449;
   position: relative;
   z-index: 100; }
 
@@ -1474,9 +1474,6 @@ div.googlemaps iframe {
 
 .wcorg-sponsor p {
   margin-bottom: .5rem; }
-
-.wcorg-sponsor a {
-  background-color: #fff; }
 
 .wcorg-sponsor a img {
   -webkit-transition: all .15s ease;
