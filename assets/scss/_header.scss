@@ -1,5 +1,5 @@
 .site-header {
-	background-color: $light;
+	background-color: $purple-dark;
 }
 
 .site-header .site-branding {
@@ -58,7 +58,7 @@
 
 .site-title a:before {
 	display: block;
-	width: 457px;
+	max-width: 457px;
 	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
