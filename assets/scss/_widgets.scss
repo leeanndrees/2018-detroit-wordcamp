@@ -6,3 +6,31 @@
 .widget_wpcom_social_media_icons_widget ul {
   padding-left: 0;
 }
+
+.widget_search .search-form:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.widget_search input[type=submit] {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 10px;
+}
+
+@media (max-width:37.4375em) {
+
+	.widget_search input[type=search] {
+		float: left;
+		width: 69%;
+	}
+
+	.widget_search input[type=submit] {
+		float: right;
+		width: 29%;
+		margin-top: 0;
+	}
+
+}
