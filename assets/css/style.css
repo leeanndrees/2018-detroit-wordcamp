@@ -2358,7 +2358,7 @@ h6, .h6, h6 a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   background-color: #007B84;
-  border-radius: 0;
+  border-radius: .1875rem;
   border-color: transparent;
   cursor: pointer;
   -webkit-transition: all .1s ease;
@@ -2965,3 +2965,24 @@ h6, .h6, h6 a {
 
 .widget_wpcom_social_media_icons_widget ul {
   padding-left: 0; }
+
+.widget_search .search-form:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.widget_search input[type=submit] {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 10px; }
+
+@media (max-width: 37.4375em) {
+  .widget_search input[type=search] {
+    float: left;
+    width: 69%; }
+
+  .widget_search input[type=submit] {
+    float: right;
+    width: 29%;
+    margin-top: 0; } }
