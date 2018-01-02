@@ -191,12 +191,14 @@
 
 .main-navigation {
 	position: relative;
-	background-color: $navy;
+	background-color: $purple;
+    background: -webkit-linear-gradient(to right bottom, $purple, $purple-dark);
+    background: linear-gradient(to right bottom, $purple, $purple-dark);
 }
 
 @media (max-width:37.4375em) {
 	.main-navigation {
-		background-color: $navy;
+		background-color: $purple;
 	}
 
 	.main-navigation.toggled-on .menu {
@@ -266,6 +268,7 @@
   	padding: .5rem 1rem;
   	text-decoration: none;
   	transition: all .1s ease;
+  	letter-spacing: 0;
   }
 
   .menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
