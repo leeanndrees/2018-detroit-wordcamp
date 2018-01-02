@@ -2617,7 +2617,7 @@ h6, .h6, h6 a {
   margin-right: 0.5em; }
 
 .site-header {
-  background-color: #EDEDEA; }
+  background-color: #622161; }
 
 .site-header .site-branding {
   position: relative;
@@ -2658,7 +2658,7 @@ h6, .h6, h6 a {
 
 .site-title a:before {
   display: block;
-  width: 457px;
+  max-width: 457px;
   height: 250px;
   margin-left: auto;
   margin-right: auto;
