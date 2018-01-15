@@ -80,11 +80,11 @@
 // }
 //
 // .cc--var-color-link:after {
-// 	background-color: #d90e17;
+// 	background-color: $purple;
 // }
 //
 // .cc--var-color-link .cc__variable:after {
-// 	content: "#d90e17";
+// 	content: "$purple";
 // }
 //
 // .cc--var-color-link-focus:after {
@@ -112,11 +112,11 @@
 // }
 //
 // .cc--var-color-link-alt:after {
-// 	background-color: #d90e17;
+// 	background-color: $purple;
 // }
 //
 // .cc--var-color-link-alt .cc__variable:after {
-// 	content: "#d90e17";
+// 	content: "$purple";
 // }
 //
 // .cc--var-color-link-alt-focus:after {
@@ -288,7 +288,7 @@
 // }
 //
 // .cc--var-color-input-focus:after {
-// 	background-color: #d90e17;
+// 	background-color:$purple;
 // }
 //
 // .cc--var-color-input-focus .cc__variable:after {
@@ -328,7 +328,7 @@
 // }
 //
 // .cc--var-color-input-checkbox-active:after {
-// 	background-color: #d90e17;
+// 	background-color:$purple;
 // }
 //
 // .cc--var-color-input-checkbox-active .cc__variable:after {
@@ -344,7 +344,7 @@
 // }
 //
 // .cc--var-color-input-radio-active:after {
-// 	background-color: #d90e17;
+// 	background-color:$purple;
 // }
 //
 // .cc--var-color-input-radio-active .cc__variable:after {
@@ -623,7 +623,7 @@
 }
 
 .entry-footer a {
-	color: #d90e17;
+	color:$purple;
 }
 
 .entry-footer a:active,.entry-footer a:focus,.entry-footer a:hover {
@@ -748,7 +748,7 @@
 	margin: 0;
 	width: 3rem;
 	height: 3rem;
-	border: .125rem solid #d90e17;
+	border: .125rem solid$purple;
 	background-color: #fff;
 	transition: all .15s ease;
 }
@@ -1112,7 +1112,7 @@ div.googlemaps iframe {
 
 .wcpt-schedule .wcpt-col-time,.wcpt-schedule .wcpt-col-track {
 	border-top: none;
-	background-color: #d90e17;
+	background-color:$purple;
 	color: #fff;
 }
 
@@ -1221,7 +1221,7 @@ div.googlemaps iframe {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		color: #fff;
-		background-color: #d90e17;
+		background-color:$purple;
 	}
 
 	.wcpt-schedule .wcpt-session-title {
@@ -1972,7 +1972,7 @@ div.googlemaps iframe {
 	display: block;
 	width: 2.5rem;
 	height: 2.5rem;
-	border: 4px solid #d90e17;
+	border: 4px solid $purple;
 	border-radius: .1875rem;
 	transition: all .1s ease;
 }
@@ -2255,7 +2255,7 @@ div.googlemaps iframe {
 	padding: 1rem;
 	min-width: 13.75rem;
 	color: #fff;
-	background-color: #d90e17;
+	background-color: $purple;
 	text-decoration: none;
 	border-radius: .1875rem;
 }
