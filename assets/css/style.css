@@ -322,7 +322,7 @@ blockquote {
   margin-bottom: 1.5rem;
   padding: 0;
   padding-left: 1.5rem;
-  border-left: 0.1875rem solid #AF3AAD; }
+  border-left: 0.1875rem solid #832d82; }
 
 blockquote p {
   font-style: normal; }
@@ -585,18 +585,18 @@ pre code {
 .entry-meta {
   margin-bottom: 1rem;
   font-family: "Open Sans", sans-serif;
-  color: #622161;
+  color: #110611;
   text-transform: none;
   letter-spacing: -.025em;
   font-size: 85%;
   font-weight: bold; }
 
 .entry-meta a {
-  color: #622161;
+  color: #110611;
   border-bottom: 0; }
 
 .entry-meta a:active, .entry-meta a:focus, .entry-meta a:hover {
-  color: #AF3AAD; }
+  color: #832d82; }
 
 .entry-meta .updated {
   display: none; }
@@ -1601,11 +1601,11 @@ div.googlemaps iframe {
   width: 100%;
   color: rgba(255, 255, 255, 0.75);
   text-transform: uppercase;
-  background-color: #c30d15; }
+  background-color: #832d82; }
 
 .jetpack_subscription_widget input[type=submit]:active, .jetpack_subscription_widget input[type=submit]:focus, .jetpack_subscription_widget input[type=submit]:hover {
   color: #fff;
-  background-color: #9c0a11; }
+  background-color: #110611; }
 
 .jetpack_subscription_widget #subscribe-text {
   margin-bottom: 1.5rem; }
@@ -1692,11 +1692,11 @@ div.googlemaps iframe {
 .list-social a:active, .list-social a:focus, .list-social a:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #d90e17; }
+  background-color: #832d82; }
 
 .list-social a:active:before, .list-social a:focus:before, .list-social a:hover:before {
-  background-color: #f09fa2;
-  border-color: #f09fa2; }
+  border-color: #f09fa2;
+  background-color: #832d82; }
 
 .list-social .social-twitter a:after {
   background-image: url("https://2017.europe.wordcamp.org/files/2016/11/icon-twitter.png"); }
@@ -2275,16 +2275,16 @@ hr {
   margin: 1.5rem auto;
   padding: 0;
   border: 0;
-  border-top: 4px solid #AF3AAD;
+  border-top: 4px solid #832d82;
   width: 60px; }
 
 *::-moz-selection {
   color: #fff;
-  background-color: #AF3AAD; }
+  background-color: #832d82; }
 
 *::selection {
   color: #fff;
-  background-color: #AF3AAD; }
+  background-color: #832d82; }
 
 body, button, input, select, textarea {
   font-family: "Open Sans", sans-serif;
@@ -2306,30 +2306,41 @@ a:hover, a:focus, a:active {
   -webkit-transition: all .15s ease;
   transition: all .15s ease; }
 
+.entry-header h1.entry-title {
+  display: none;
+  /* Hides the page titles on single pages */ }
+
 h1, .h1, h1 a {
-  font-size: 2em;
-  text-transform: uppercase; }
+  font-size: 2.2em;
+  text-transform: uppercase;
+  line-height: 1.3; }
 
 h2, .h2, h2 a {
   font-size: 2em;
-  color: #AF3AAD; }
+  line-height: 1.3;
+  color: #110611; }
 
 h3, .h3, h3 a {
-  font-size: 2em; }
+  font-size: 2em;
+  line-height: 1.3;
+  color: #110611;
+  font-family: 'Permanent Marker', sans-serif; }
 
 h4, .h4, h4 a {
   font-size: 1.5em;
-  color: #AF3AAD; }
+  line-height: 1.3; }
 
 h5, .h5, h5 a {
   font-size: 1.2em;
-  color: #AF3AAD; }
+  font-weight: bold;
+  line-height: 1.3; }
 
 h6, .h6, h6 a {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  line-height: 1.3; }
 
 .cursive, .widget-title {
-  font-family: "Damion", cursive; }
+  font-family: "Permanent Marker", cursive; }
 
 .site {
   overflow: hidden;
@@ -2382,14 +2393,14 @@ h6, .h6, h6 a {
   background-color: #179BA6; }
 
 .button.button--secondary, button.button--secondary, input[type=button].button--secondary, input[type=reset].button--secondary, input[type=submit].button--secondary {
-  color: #AF3AAD;
+  color: #832d82;
   background-color: #EDEDEA;
-  border: 2px solid #AF3AAD; }
+  border: 2px solid #832d82; }
 
 .button.button--secondary:active, .button.button--secondary:focus, .button.button--secondary:hover, button.button--secondary:active, button.button--secondary:focus, button.button--secondary:hover, input[type=button].button--secondary:active, input[type=button].button--secondary:focus, input[type=button].button--secondary:hover, input[type=reset].button--secondary:active, input[type=reset].button--secondary:focus, input[type=reset].button--secondary:hover, input[type=submit].button--secondary:active, input[type=submit].button--secondary:focus, input[type=submit].button--secondary:hover {
-  color: #c755c5;
+  color: #a93aa8;
   background-color: #EDEDEA;
-  border-color: #c755c5; }
+  border-color: #a93aa8; }
 
 .button.button--invert, button.button--invert, input[type=button].button--invert, input[type=reset].button--invert, input[type=submit].button--invert {
   color: rgba(0, 0, 0, 0.75);
@@ -2617,7 +2628,7 @@ h6, .h6, h6 a {
   margin-right: 0.5em; }
 
 .site-header {
-  background-color: #622161; }
+  background-color: #110611; }
 
 .site-header .site-branding {
   position: relative;
@@ -2665,7 +2676,7 @@ h6, .h6, h6 a {
   margin-bottom: 1rem;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-image: url("https://2018.detroit.wordcamp.org/files/2017/11/cropped-wordcamp-detroit-logo-2018-white-1.png");
+  background-image: url("https://2018.detroit.wordcamp.org/files/2018/01/wordcamp-detroit-vector-white.png");
   background-size: 100%;
   content: ""; }
 
@@ -2684,7 +2695,7 @@ h6, .h6, h6 a {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: fixed;
-  background-image: url("https://2018.detroit.wordcamp.org/files/2017/11/cropped-cropped-detroit-wordcamp-hero-image-2018-2.jpg");
+  background-image: url("https://2018.detroit.wordcamp.org/files/2018/01/background-city-pink.jpg");
   -webkit-transition: all .15s ease;
   transition: all .15s ease; }
 
@@ -2699,7 +2710,7 @@ h6, .h6, h6 a {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: radial-gradient(circle at center, rgba(175, 58, 173, 0.5) 0, rgba(98, 33, 97, 0.5) 100%);
+  background-image: radial-gradient(circle at center, rgba(131, 45, 130, 0.5) 0, rgba(17, 6, 17, 0.5) 100%);
   -webkit-transition: all .15s ease;
   transition: all .15s ease;
   content: ""; }
@@ -2719,14 +2730,14 @@ h6, .h6, h6 a {
   font-weight: 700;
   text-align: center;
   letter-spacing: .05em;
-  color: #AF3AAD;
+  color: #832d82;
   text-transform: uppercase;
   border-radius: 0;
   background-color: #EDEDEA;
   cursor: pointer; }
 
 .menu-toggle.focus, .menu-toggle:active, .menu-toggle:focus, .menu-toggle:hover {
-  color: #c755c5;
+  color: #a93aa8;
   background-color: #EDEDEA; }
 
 .menu-toggle:before {
@@ -2758,11 +2769,13 @@ h6, .h6, h6 a {
     display: none; } }
 .main-navigation {
   position: relative;
-  background-color: #073449; }
+  background-color: #832d82;
+  background: -webkit-gradient(linear, left top, right bottom, from(#832d82), to(#110611));
+  background: linear-gradient(to right bottom, #832d82, #110611); }
 
 @media (max-width: 37.4375em) {
   .main-navigation {
-    background-color: #073449; }
+    background-color: #832d82; }
 
   .main-navigation.toggled-on .menu {
     display: block; } }
@@ -2814,7 +2827,8 @@ h6, .h6, h6 a {
     padding: .5rem 1rem;
     text-decoration: none;
     -webkit-transition: all .1s ease;
-    transition: all .1s ease; }
+    transition: all .1s ease;
+    letter-spacing: 0; }
   .menu-top-menu-container .menu-item a.focus, .menu-top-menu-container .menu-item a:active, .menu-top-menu-container .menu-item a:focus, .menu-top-menu-container .menu-item a:hover {
     color: #EDEDEA;
     background-color: #007B84; } }
@@ -2927,7 +2941,7 @@ h6, .h6, h6 a {
   background-image: url("https://europe.wordcamp.org/2016/files/2015/11/wordpress-footer-logo.png");
   background-position: 50%;
   background-repeat: no-repeat;
-  background-color: #AF3AAD;
+  background-color: #832d82;
   background-size: 40px;
   border-radius: 50%;
   -webkit-transition: all .1s ease;
@@ -2942,13 +2956,13 @@ h6, .h6, h6 a {
   margin-bottom: -1.875rem;
   width: 1.875rem;
   height: 6.25rem;
-  background: #AF3AAD;
+  background: #832d82;
   -webkit-transition: all .1s ease;
   transition: all .1s ease;
   content: ""; }
 
 .site-info-network:active, .site-info-network:active:after, .site-info-network:focus, .site-info-network:focus:after, .site-info-network:hover, .site-info-network:hover:after {
-  background-color: #c755c5; }
+  background-color: #a93aa8; }
 
 .widget_nav_menu .menu-item {
   display: inline-block;
