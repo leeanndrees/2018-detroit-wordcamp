@@ -1959,6 +1959,7 @@ div.googlemaps iframe {
 	padding: 1rem 1.5rem;
 	padding-top: 4.25rem;
 	color: rgba(0,0,0,.8);
+	border-radius: .1875rem;
 	text-decoration: none;
 }
 
@@ -1971,6 +1972,8 @@ div.googlemaps iframe {
 	display: block;
 	width: 2.5rem;
 	height: 2.5rem;
+	border: 4px solid #d90e17;
+	border-radius: .1875rem;
 	transition: all .1s ease;
 }
 
@@ -1997,6 +2000,7 @@ div.googlemaps iframe {
 }
 
 .list-social a:active:before,.list-social a:focus:before,.list-social a:hover:before {
+	border-color: #f09fa2;
 	background-color: $purple;
 }
 
