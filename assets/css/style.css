@@ -620,7 +620,7 @@ pre code {
   content: ""; }
 
 .entry-footer a {
-  color: #d90e17; }
+  color: #832d82; }
 
 .entry-footer a:active, .entry-footer a:focus, .entry-footer a:hover {
   color: #c30d15; }
@@ -713,7 +713,7 @@ pre code {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  border: .125rem solid #d90e17;
+  border: 0.125rem solid #832d82;
   background-color: #fff;
   -webkit-transition: all .15s ease;
   transition: all .15s ease; }
@@ -1008,7 +1008,7 @@ div.googlemaps iframe {
 
 .wcpt-schedule .wcpt-col-time, .wcpt-schedule .wcpt-col-track {
   border-top: none;
-  background-color: #d90e17;
+  background-color: #832d82;
   color: #fff; }
 
 .wcpt-schedule .global-session td {
@@ -1097,7 +1097,7 @@ div.googlemaps iframe {
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: #fff;
-    background-color: #d90e17; }
+    background-color: #832d82; }
 
   .wcpt-schedule .wcpt-session-title {
     padding: 0; }
@@ -1558,7 +1558,8 @@ div.googlemaps iframe {
     padding: 2.5rem 1rem; } }
 .widget-title {
   font-size: 1.75em;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  letter-spacing: 2px; }
 
 #after-header-widgets .widget, #before-content-widgets .widget, #secondary .widget {
   text-align: center; }
@@ -1669,7 +1670,7 @@ div.googlemaps iframe {
   display: block;
   width: 2.5rem;
   height: 2.5rem;
-  border: 4px solid #d90e17;
+  border: 4px solid #832d82;
   border-radius: .1875rem;
   -webkit-transition: all .1s ease;
   transition: all .1s ease; }
@@ -1904,7 +1905,7 @@ div.googlemaps iframe {
   padding: 1rem;
   min-width: 13.75rem;
   color: #fff;
-  background-color: #d90e17;
+  background-color: #832d82;
   text-decoration: none;
   border-radius: .1875rem; }
 
@@ -2340,7 +2341,8 @@ h6, .h6, h6 a {
   line-height: 1.3; }
 
 .cursive, .widget-title {
-  font-family: "Permanent Marker", cursive; }
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 2px; }
 
 .site {
   overflow: hidden;
@@ -2695,13 +2697,13 @@ h6, .h6, h6 a {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: fixed;
-  background-image: url("https://2018.detroit.wordcamp.org/files/2018/01/background-city-pink.jpg");
+  background-image: url("https://2018.detroit.wordcamp.org/files/2018/01/background-city-pink-500x263.jpg");
   -webkit-transition: all .15s ease;
   transition: all .15s ease; }
 
 @media (min-width: 48em) {
   .site-header {
-    background-image: url("https://2018.detroit.wordcamp.org/files/2017/11/cropped-cropped-detroit-wordcamp-hero-image-2018-2-1.jpg");
+    background-image: url("https://2018.detroit.wordcamp.org/files/2018/01/background-city-pink.jpg");
     background-position: 50% 50%;
     background-size: cover; } }
 .site-header:before {
@@ -2770,8 +2772,8 @@ h6, .h6, h6 a {
 .main-navigation {
   position: relative;
   background-color: #832d82;
-  background: -webkit-gradient(linear, left top, right bottom, from(#832d82), to(#110611));
-  background: linear-gradient(to right bottom, #832d82, #110611); }
+  background: -webkit-gradient(linear, left top, right bottom, from(#832d82), to(#5d205c));
+  background: linear-gradient(to right bottom, #832d82, #5d205c); }
 
 @media (max-width: 37.4375em) {
   .main-navigation {
