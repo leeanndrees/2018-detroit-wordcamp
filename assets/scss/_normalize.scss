@@ -219,6 +219,9 @@ h1,h2,h3,h4 {
 	letter-spacing: -.025em;
 }
 
+/* These are conflicting with our heading font sizes */
+
+/*
 h1 {
 	font-size: 2.44141em;
 	color: #111;
@@ -240,6 +243,8 @@ h4 {
 	font-size: 1.25em;
 	color: #000;
 }
+
+*/
 
 hr {
 	margin: 1.5rem 0;
