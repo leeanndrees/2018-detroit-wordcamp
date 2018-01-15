@@ -99,13 +99,13 @@
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-size: fixed;
-	background-image: url('https://2018.detroit.wordcamp.org/files/2018/01/background-city-pink.jpg');
+	background-image: url('https://2018.detroit.wordcamp.org/files/2018/01/background-city-pink-500x263.jpg');
 	transition: all .15s ease;
 }
 
 @media (min-width:48em) {
 	.site-header {
-		background-image: url('https://2018.detroit.wordcamp.org/files/2017/11/cropped-cropped-detroit-wordcamp-hero-image-2018-2-1.jpg');
+	background-image: url('https://2018.detroit.wordcamp.org/files/2018/01/background-city-pink.jpg');
 		background-position: 50% 50%;
 		background-size: cover;
 	}
@@ -192,8 +192,8 @@
 .main-navigation {
 	position: relative;
 	background-color: $purple;
-    background: -webkit-linear-gradient(to right bottom, $purple, $purple-dark);
-    background: linear-gradient(to right bottom, $purple, $purple-dark);
+    background: -webkit-linear-gradient(to right bottom, $purple, darken($purple, 10%));
+    background: linear-gradient(to right bottom, $purple, darken($purple, 10%));
 }
 
 @media (max-width:37.4375em) {
