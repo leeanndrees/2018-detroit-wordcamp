@@ -2787,7 +2787,7 @@ h6, .h6, h6 a {
 
 @media (max-width: 37.4375em) {
   .main-navigation {
-    background-color: #832d82; }
+    background-color: #fff; }
 
   .main-navigation.toggled-on .menu {
     display: block; } }
@@ -2825,6 +2825,15 @@ h6, .h6, h6 a {
   text-transform: uppercase;
   letter-spacing: -.025em; }
 
+.menu-item a {
+  display: block;
+  color: #EDEDEA;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+  letter-spacing: 0; }
+
 @media (min-width: 37.5em) {
   .menu-top-menu-container .menu-item {
     margin: 0 .0625rem;
@@ -2833,14 +2842,6 @@ h6, .h6, h6 a {
     font-size: 1.125rem;
     line-height: 1.33333em;
     text-align: center; }
-  .menu-top-menu-container .menu-item a {
-    display: block;
-    color: #EDEDEA;
-    padding: .5rem 1rem;
-    text-decoration: none;
-    -webkit-transition: all .1s ease;
-    transition: all .1s ease;
-    letter-spacing: 0; }
   .menu-top-menu-container .menu-item a.focus, .menu-top-menu-container .menu-item a:active, .menu-top-menu-container .menu-item a:focus, .menu-top-menu-container .menu-item a:hover {
     color: #EDEDEA;
     background-color: #007B84; } }
@@ -2927,11 +2928,17 @@ h6, .h6, h6 a {
     padding-left: 2rem;
     padding-right: 2rem; } }
 #colophon {
-  max-width: 50rem;
+  /* max-width: 50rem;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 3rem;
-  text-align: center; }
+  margin-right: auto; 
+  margin-top: 3rem; */
+  text-align: center;
+  background-color: #007B84;
+  color: #EDEDEA;
+  padding-bottom: 10px; }
+
+#colophon a {
+  color: #EDEDEA; }
 
 .site-info-generator {
   position: absolute;
@@ -2959,20 +2966,22 @@ h6, .h6, h6 a {
   -webkit-transition: all .1s ease;
   transition: all .1s ease; }
 
-.site-info-network:after {
-  position: absolute;
-  left: 50%;
-  top: 1.875rem;
-  z-index: -1;
-  margin-left: -.9375rem;
-  margin-bottom: -1.875rem;
-  width: 1.875rem;
-  height: 6.25rem;
-  background: #832d82;
-  -webkit-transition: all .1s ease;
-  transition: all .1s ease;
-  content: ""; }
+/* Remove the silly tab thing below the WP logo
 
+.site-info-network:after {
+	position: absolute;
+	left: 50%;
+	top: 1.875rem;
+	z-index: -1;
+	margin-left: -.9375rem;
+	margin-bottom: -1.875rem;
+	width: 1.875rem;
+	height: 6.25rem;
+	background: $purple;
+	transition: all .1s ease;
+	content: "";
+}
+*/
 .site-info-network:active, .site-info-network:active:after, .site-info-network:focus, .site-info-network:focus:after, .site-info-network:hover, .site-info-network:hover:after {
   background-color: #a93aa8; }
 
