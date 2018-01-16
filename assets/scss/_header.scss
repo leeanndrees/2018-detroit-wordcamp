@@ -198,7 +198,8 @@
 
 @media (max-width:37.4375em) {
 	.main-navigation {
-		background-color: $purple;
+		background-color: #fff;
+
 	}
 
 	.main-navigation.toggled-on .menu {
@@ -251,6 +252,15 @@
 	letter-spacing: -.025em;
 }
 
+  .menu-item a {
+  	display: block;
+  	color: $light;
+  	padding: .5rem 1rem;
+  	text-decoration: none;
+  	transition: all .1s ease;
+  	letter-spacing: 0;
+  }
+
 @media (min-width:37.5em) {
   .menu-top-menu-container {
   	.menu-item {
@@ -261,15 +271,6 @@
   		line-height: 1.33333em;
   		text-align: center;
   	}
-
-  .menu-item a {
-  	display: block;
-  	color: $light;
-  	padding: .5rem 1rem;
-  	text-decoration: none;
-  	transition: all .1s ease;
-  	letter-spacing: 0;
-  }
 
   .menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
   	color: $light;
