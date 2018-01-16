@@ -2,8 +2,15 @@
 	max-width: 50rem;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3rem;
+	/* margin-top: 3rem; */
 	text-align: center;
+	background-color: $teal;
+	color: $light;
+	padding-bottom: 10px;
+}
+
+#colophon a {
+	color: $light;
 }
 
 .site-info-generator {
@@ -33,6 +40,8 @@
 	transition: all .1s ease;
 }
 
+/* Remove the silly tab thing below the WP logo
+
 .site-info-network:after {
 	position: absolute;
 	left: 50%;
@@ -46,6 +55,7 @@
 	transition: all .1s ease;
 	content: "";
 }
+*/
 
 .site-info-network:active,.site-info-network:active:after,.site-info-network:focus,.site-info-network:focus:after,.site-info-network:hover,.site-info-network:hover:after {
 	background-color: $purple-light;
