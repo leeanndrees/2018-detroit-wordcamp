@@ -96,11 +96,11 @@
 // }
 //
 // .cc--var-color-link-hover:after {
-// 	background-color: #c30d15;
+// 	background-color: "$purple";
 // }
 //
 // .cc--var-color-link-hover .cc__variable:after {
-// 	content: "#c30d15";
+// 	content: "$purple-dark";
 // }
 //
 // .cc--var-color-link-visited:after {
@@ -128,11 +128,11 @@
 // }
 //
 // .cc--var-color-link-alt-hover:after {
-// 	background-color: #c30d15;
+// 	background-color: $purple;
 // }
 //
 // .cc--var-color-link-alt-hover .cc__variable:after {
-// 	content: "#c30d15";
+// 	content: "$purple-dark";
 // }
 //
 // .cc--var-color-link-alt-visited:after {
@@ -627,7 +627,7 @@
 }
 
 .entry-footer a:active,.entry-footer a:focus,.entry-footer a:hover {
-	color: #c30d15;
+	color: $purple;
 }
 
 .wcorg-organizers {
@@ -2267,7 +2267,7 @@ div.googlemaps iframe {
 
 .nav-anchor a:focus,.nav-anchor a:hover {
 	color: #000;
-	background-color: #c30d15;
+	background-color: $purple;
 }
 
 .u-text-center {
