@@ -631,7 +631,7 @@ pre code {
   color: #832d82; }
 
 .entry-footer a:active, .entry-footer a:focus, .entry-footer a:hover {
-  color: #c30d15; }
+  color: #832d82; }
 
 .wcorg-organizers {
   padding-bottom: 1.5rem;
@@ -1923,7 +1923,7 @@ div.googlemaps iframe {
 
 .nav-anchor a:focus, .nav-anchor a:hover {
   color: #000;
-  background-color: #c30d15; }
+  background-color: #832d82; }
 
 .u-text-center {
   text-align: center; }
