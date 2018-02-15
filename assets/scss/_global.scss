@@ -51,21 +51,25 @@ a {
   }
 }
 
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 2em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.2em; }
+
 
 h1, .h1, h1 a {
-  font-size: 2em;
   line-height: 1.3;
   color: $purple;
 }
 
 h2, .h2, h2 a {
-  font-size: 1.5em;
   line-height: 1.3;
   color: $purple-dark;
 }
 
 h3, .h3, h3 a {
-  font-size: 2em;
   line-height: 1.3;
   color: $purple-dark;
   font-family: 'Permanent Marker', sans-serif;
@@ -73,18 +77,15 @@ h3, .h3, h3 a {
 }
 
 h4, .h4, h4 a {
-  font-size: 1.5em;
   line-height: 1.3;
 }
 
 h5, .h5, h5 a {
-  font-size: 1.2em; //style guide says 1.7
   font-weight:bold;
   line-height: 1.3;
 }
 
 h6, .h6, h6 a {
-  font-size: 1.2em; //style guide says 2
   line-height: 1.3;
 }
 
