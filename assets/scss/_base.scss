@@ -1166,6 +1166,26 @@ div.googlemaps iframe {
 	background-color: #f9f9f9;
 }
 
+.wcpt-schedule {
+	border: 0;
+}
+
+.wcpt-schedule .wcpt-col-time, .wcpt-schedule .wcpt-col-track {
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: #fff;
+	color: #832d82;
+	font-size: 110%
+}
+
+.entry-content .wcpt-schedule a, .entry-content .wcpt-schedule a:link, .entry-content .wcpt-schedule a:visited {
+	border-bottom: 0;
+}
+
+.wcpt-schedule td, .wpct-schedule th {
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+
 @media (max-width:47.9375em) {
 	.wcpt-schedule {
 		border: none;
