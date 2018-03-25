@@ -115,6 +115,25 @@ h6, .h6, h6 a {
 
 .entry-title {color: $purple;}
 
+
+/* Modify Entry Titles on Blog Posts - big and chunky! */
+
+.entry-title {
+    color: #fff;
+    padding: 150px 30px 20px;
+    background-color: #073449;
+    background: -webkit-gradient(linear,left top,right bottom,from(#0a5065),to(#073449));
+    background: linear-gradient(to right bottom,#0a5065,#073449);
+    margin: 10px 0;
+}
+
+.entry-title a {
+    color: #fff;
+    padding: 30px 0;
+    font-size: 1.5em;
+    letter-spacing: 0;
+}
+
 // BUTTONS
 
 .button,button,input[type=button],input[type=reset],input[type=submit] {

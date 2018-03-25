@@ -497,7 +497,7 @@
 
 @media (min-width:48em) {
 	#content {
-		padding: 4.5rem 3rem;
+		padding: 4.5rem 3rem 0;
 	}
 }
 
@@ -582,20 +582,20 @@
 .entry-meta {
 	margin-bottom: 1rem;
 	font-family: $body-font;
-	color: $purple-dark;
+	color: color: #696968; /* medium gray */
 	text-transform: none;
 	letter-spacing: -.025em;
-	font-size: 85%;
+	font-size: 14px;
 	font-weight: bold;
 }
 
 .entry-meta a {
-	color: $purple-dark;
+	color: color: #696968; /* medium gray */
 	border-bottom: 0;
 }
 
 .entry-meta a:active,.entry-meta a:focus,.entry-meta a:hover {
-	color: $purple;
+	color: $teal;
 }
 
 .entry-meta .updated {
