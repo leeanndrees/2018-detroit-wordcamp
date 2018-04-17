@@ -2728,11 +2728,21 @@ img.emoji,img.wp-smiley {
 
 // Schedule Color-Coding
 
+.schedule-color {
+	float: right;
+	max-width: 30%;
+	margin-bottom: 0;
+	td, th {
+		border-top: 0;
+		font-weight: bold;
+	}
+}
+
 .wcb-track-developer {
 	background-color: #f5e9f7;
 	background: -webkit-gradient(linear,left top,right bottom,from(#f5e9f7),to(#e1c4e4));
 	background: linear-gradient(to right bottom,#f5e9f7,#e1c4e4);
-	border-top: 3px solid #7c2b7a !important;
+	border-top: 3px solid #7c2b7a;
 }
 
 .wcb-track-business {
@@ -2747,20 +2757,10 @@ img.emoji,img.wp-smiley {
 	background-color: #d3e3e4;
 	background: -webkit-gradient(linear,left top,right bottom,from(#d3e3e4),to(#aad3d6));
 	background: linear-gradient(to right bottom,#d3e3e4,#aad3d6);
-	border-top: 3px solid #007b84 !important;
+	border-top: 3px solid #007b84;
 }
 
 .wcb-session-lunch, .wcb-session-lunch-2 {
 	background-color: #fff;
 	border-top:0;
-}
-
-.schedule-color {
-	float: right;
-	max-width: 30%;
-	margin-bottom: 0;
-	td, th {
-		border-top: 0;
-		font-weight: bold;
-	}
 }
