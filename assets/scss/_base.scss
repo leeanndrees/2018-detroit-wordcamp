@@ -2729,19 +2729,30 @@ img.emoji,img.wp-smiley {
 // Schedule Color-Coding
 
 .wcb-track-developer {
-	background-color: #DBCBDD;
+	background-color: #f5e9f7;
+	background: -webkit-gradient(linear,left top,right bottom,from(#f5e9f7),to(#e1c4e4));
+	background: linear-gradient(to right bottom,#f5e9f7,#e1c4e4);
+	border-top: 3px solid #7c2b7a !important;
 }
 
 .wcb-track-business {
-	background-color: #C8C8DE;
+	background-color: #d3e3e4;
+	background: -webkit-gradient(linear,left top,right bottom,from(#d3e3e4),to(#aad3d6));
+	background: linear-gradient(to right bottom,#d3e3e4,#aad3d6);
+	border-top: 3px solid #007b84 !important;
 }
 
+
 .wcb-track-designdiversity {
-	background-color: #CDD7E2;
+	background-color: #d3e3e4;
+	background: -webkit-gradient(linear,left top,right bottom,from(#d3e3e4),to(#aad3d6));
+	background: linear-gradient(to right bottom,#d3e3e4,#aad3d6);
+	border-top: 3px solid #007b84 !important;
 }
 
 .wcb-session-lunch, .wcb-session-lunch-2 {
 	background-color: #fff;
+	border-top:0;
 }
 
 .schedule-color {
