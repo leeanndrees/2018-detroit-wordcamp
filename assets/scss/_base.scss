@@ -2742,14 +2742,14 @@ img.emoji,img.wp-smiley {
 	background-color: #f5e9f7;
 	background: -webkit-gradient(linear,left top,right bottom,from(#f5e9f7),to(#e1c4e4));
 	background: linear-gradient(to right bottom,#f5e9f7,#e1c4e4);
-	border-top: 3px solid #7c2b7a;
+	border-top: 3px solid #7c2b7a !important;
 }
 
 .wcb-track-business {
 	background-color: #e0e0e0;
 	background: -webkit-gradient(linear,left top,right bottom,from(#e0e0e0),to(#b3b3b3));
 	background: linear-gradient(to right bottom,#e0e0e0,#b3b3b3);
-	border-top: 3px solid #000;
+	border-top: 3px solid #000 !important;
 }
 
 
@@ -2757,7 +2757,7 @@ img.emoji,img.wp-smiley {
 	background-color: #d3e3e4;
 	background: -webkit-gradient(linear,left top,right bottom,from(#d3e3e4),to(#aad3d6));
 	background: linear-gradient(to right bottom,#d3e3e4,#aad3d6);
-	border-top: 3px solid #007b84;
+	border-top: 3px solid #007b84 !important;
 }
 
 .wcb-session-lunch, .wcb-session-lunch-2 {
