@@ -2307,6 +2307,8 @@ img.emoji, img.wp-smiley {
   float: right;
   max-width: 30%;
   margin-bottom: 0; }
+  .schedule-color td, .schedule-color th {
+    border-top: 0; }
 
 body {
   font-size: 1em;
