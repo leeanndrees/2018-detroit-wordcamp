@@ -2310,8 +2310,8 @@ img.emoji, img.wp-smiley {
 
 .wcb-track-business {
   background-color: #e0e0e0;
-  background: -webkit-gradient(linear, left top, right bottom, from(#e0e0e0), to(#b3b3b3));
-  background: linear-gradient(to right bottom, #e0e0e0, #b3b3b3);
+  background: -webkit-gradient(linear, left top, right bottom, from(#e0e0e0), to(#c3c3c3));
+  background: linear-gradient(to right bottom, #e0e0e0, #c3c3c3);
   border-top: 3px solid #000 !important; }
 
 .wcb-track-designdiversity {
