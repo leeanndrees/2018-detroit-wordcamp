@@ -2303,9 +2303,10 @@ img.emoji, img.wp-smiley {
   .schedule-color td, .schedule-color th {
     border-top: 0;
     font-weight: bold; }
-    @media screen and (max-width: 500px) {
-      .schedule-color td, .schedule-color th {
-        font-size: 70%; } }
+  @media screen and (max-width: 500px) {
+    .schedule-color tr:first-of-type td {
+      font-size: 70%;
+      padding: 1rem .5rem; } }
 
 .wcb-track-developer {
   background-color: #f5e9f7;

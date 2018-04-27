@@ -2737,8 +2737,11 @@ img.emoji,img.wp-smiley {
 	td, th {
 		border-top: 0;
 		font-weight: bold;
+	}
+	tr:first-of-type td {
 		@media screen and (max-width: 500px) {
 			font-size: 70%;
+			padding: 1rem .5rem;
 		}
 	}
 }
