@@ -2300,12 +2300,12 @@ img.emoji, img.wp-smiley {
   @media screen and (min-width: 1024px) {
     .schedule-color {
       max-width: 30em; } }
-  @media screen and (max-width: 500px) {
-    .schedule-color {
-      font-size: 70%; } }
   .schedule-color td, .schedule-color th {
     border-top: 0;
     font-weight: bold; }
+    @media screen and (max-width: 500px) {
+      .schedule-color td, .schedule-color th {
+        font-size: 70%; } }
 
 .wcb-track-developer {
   background-color: #f5e9f7;

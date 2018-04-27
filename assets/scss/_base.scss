@@ -2734,12 +2734,12 @@ img.emoji,img.wp-smiley {
 	@media screen and (min-width: 1024px) {
 		max-width: 30em;
 	}
-	@media screen and (max-width: 500px) {
-		font-size: 70%;
-	}
 	td, th {
 		border-top: 0;
 		font-weight: bold;
+		@media screen and (max-width: 500px) {
+			font-size: 70%;
+		}
 	}
 }
 
