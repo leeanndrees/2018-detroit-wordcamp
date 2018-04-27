@@ -2730,8 +2730,10 @@ img.emoji,img.wp-smiley {
 
 .schedule-color {
 	float: right;
-	max-width: 30%;
 	margin-bottom: 0;
+	@media screen and (min-width: 1024px) {
+		max-width: 30%;
+	}
 	td, th {
 		border-top: 0;
 		font-weight: bold;
